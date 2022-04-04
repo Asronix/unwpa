@@ -46,72 +46,6 @@ ul.social-media li img {
   border-width: 10px;
 }
 
-.border-warning-circle {
-  border-color: #ffc228;
-  border-width: 10px;
-}
-.img-fluid-profile {
-  height: auto;
-  width: 59%;
-  margin-left: 90px;
-}
-.img-size {
-  width: 50%;
-  height: auto;
-  margin-top: 20px;
-}
-.parallelogram {
-  width:max-content;
-  transform: skew(-39deg);
-  background-color: #264caa;
-  text-align: center;
-  /* margin-left: 86px; */
-  margin-top: -23px;
-  height: 22px;
-}
-.parallelogram-members {
-  width:max-content;
-  transform: skew(-39deg);
-  background-color: #264caa;
-  text-align: center;
-  margin-top: -23px;
-  height: 22px;
-}
-.text-white-fusao {
-  transform: skew(38deg);
-  margin-left: 4px;
-}
-.text-white-ayaka {
-  transform: skew(38deg);
-}
-.vr {
-  margin-right: 3px;
-  width: 3px;
-  transform: skew(38deg);
-  background-color: #FFC228;
-  opacity: unset;
-  height: fit-content;
-  display: inline-block;
-
-}
-
-.text-white-subtext {
-  margin-left: 110px !important;
-}
-.bkgnd {
-  background-color: #24314C;
-}
-.size {
-  border-radius: 0.25rem !important;
-}
-.more {
-  border-radius: 4px !important;
-  border: 1px solid white !important;
-  padding: 2px;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
 .section-1 {
   background-image: url("../assets/homepage/overlay-logo.png"), linear-gradient(140deg, #646464, #959595);
   opacity: 0.5;
@@ -389,6 +323,46 @@ ul.social-media li img {
   top: 0;
   width: 75%;
   height: 90%;
+}
+
+.paya-hero > .row:first-child > div:first-child {
+  background-image: url("../assets/about us/bg-paya1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: -8rem 0rem;
+}
+
+.paya-hero .container h3 {
+  font-weight: 400;
+}
+
+.paya-hero1 > .row:first-child > div:last-child {
+  background-image: url("../assets/about us/bg-paya2.png");
+  background-size: 40rem 40rem;
+  background-repeat: no-repeat;
+  background-position: 5rem 0rem;
+}
+
+.paya-hero1 .container h3 {
+  font-weight: 400;
+  text-align: justify;
+}
+
+.paya-hero1 > .row:last-child {
+  background-image: url("../assets/about us/bg-paya1.png");
+  background-repeat: no-repeat;
+  background-size: 25rem 25rem;
+  background-position: -10rem 10rem;
+}
+
+.paya-hero1 > .row:last-child h3 {
+  text-align: justify;
+  font-weight: 400;
+}
+
+.paya-hero2 h3 {
+  font-weight: 400;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {

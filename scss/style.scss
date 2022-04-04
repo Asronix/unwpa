@@ -340,6 +340,61 @@ ul.social-media {
     }
 }
 
+.paya-hero {
+    > .row:first-child {
+        > div:first-child {
+            background-image: url('../assets/about us/bg-paya1.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: -8rem 0rem;
+        }
+    }
+
+    .container {
+        h3 {
+            font-weight: 400;
+        }
+    }
+}
+
+.paya-hero1 {
+    > .row:first-child {
+
+        > div:last-child {
+            background-image: url('../assets/about us/bg-paya2.png');
+            background-size: 40rem 40rem;
+            background-repeat: no-repeat;
+            background-position: 5rem 0rem;
+        }
+    }
+
+    .container {
+        h3 {
+            font-weight: 400;
+            text-align: justify;
+        }
+    }
+
+    > .row:last-child {
+        background-image: url('../assets/about us/bg-paya1.png');
+        background-repeat: no-repeat;
+        background-size: 25rem 25rem;
+        background-position: -10rem 10rem;
+
+        h3 {
+            text-align: justify;
+            font-weight: 400;
+        }
+    }
+}
+
+.paya-hero2 {
+    h3 {
+        font-weight: 400;
+        text-align: justify;
+    }
+}
+
 // Media Queries for Tablet 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
