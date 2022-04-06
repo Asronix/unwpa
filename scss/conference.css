@@ -1,6 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
 .header-bg {
   background-color: #2861F6;
   border-bottom: 10px solid #264caa;
+}
+
+.header-bg .hoverable_wrap {
+  position: relative;
+}
+
+.header-bg .hoverable_wrap .hoverable-news-and-updates {
+  position: absolute;
+  z-index: 10;
+  left: -37rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  height: 10rem;
+  width: 84.39rem;
+  overflow-x: hidden;
+  visibility: hidden;
+}
+
+.header-bg .hoverable_wrap .hoverable-conferences {
+  position: absolute;
+  z-index: 10;
+  left: -57rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  height: 10rem;
+  width: 84.36rem;
+  overflow-x: hidden;
+  visibility: hidden;
+}
+
+.header-bg .hoverable_wrap .hoverable-about-us {
+  position: absolute;
+  z-index: 10;
+  left: -78rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  height: 10rem;
+  width: 85.1rem;
+  overflow-x: hidden;
+  visibility: hidden;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
+  visibility: visible;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-conferences {
+  visibility: visible;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-about-us {
+  visibility: visible;
+  opacity: 1;
 }
 
 .logo-bg {
