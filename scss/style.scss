@@ -12,6 +12,10 @@ $aboutbgalt2: linear-gradient(to bottom, #E8EFFF 50%, #F0F5FF 50%);
 $aboutbgalt3: linear-gradient(to bottom, $aboutbgcolor2 50%,  $aboutbgcolor2 50%);
 
 
+.body{
+    font-family: 'Poppins';
+}
+
 .header-bg {
     background-color: $backgroundColor;
     border-bottom: 10px solid $borderColor1;
@@ -155,7 +159,7 @@ ul.social-media {
 //Partnership Portal
 
 .pPortal_seperatorbg1{
-    $aboutbgalt3;
+    background:$aboutbgalt3;
 }
 
 .pPortalTitleContainer{
