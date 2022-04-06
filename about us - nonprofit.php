@@ -50,6 +50,8 @@
                 Article 2: Has its main Office in Sapporo Hokkaido.
             </div>
         </div>
+
+        
               
 </div> <!-- pPortalTitle Container--> 
 
