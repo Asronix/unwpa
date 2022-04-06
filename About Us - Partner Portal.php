@@ -46,7 +46,7 @@
                 <div class="col-sm-6 align-self-center">  
                     <img class="image-fluid d-flex mx-auto justify-content-center image_p" alt="world" src="assets\about us\woldforworld.png" >                       
                 </div>     
-                <div class="col-sm-5 justify-content-center description_1">
+                <div class="col-sm-5 d-flex justify-content-center align-items-center description_1">
                     <span class="text-center fs-4 partnerDescription"> 
                         Joining the world for world organization (UN NGO IRENE Network),  to support and to act for the achievements of 
                         the Global Agenda. WFWO believe that only with global partnerships and solidarity of all, and hearing the voices 
@@ -59,7 +59,7 @@
                 <div class="col-sm-6 align-self-center">  
                     <img src="assets\about us\undesa.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
                 </div>     
-                <div class="col-sm-5 justify-content-center mt-5">
+                <div class="col-sm-5 d-flex justify-content-center align-items-center mt-5">
                     <span class="text-center fs-4 partnerDescription"> 
                     Partners for Sustainable Development  of UN-DESA <br>
                     #33126 Ref #188223 </span>
@@ -70,7 +70,7 @@
                 <div class="col-sm-6 align-self-center">  
                     <img src="assets\about us\UIA.png" class="image-fluid d-flex mx-auto justify-content-center image_1">                       
                 </div>     
-                <div class="col-sm-5 justify-content-center mt-5">
+                <div class="col-sm-5 d-flex justify-content-center align-items-center mt-5">
                     <span class="text-center fs-4 partnerDescription"> 
                     Union of Internation Relations </span>
                 </div>               
@@ -80,7 +80,7 @@
                 <div class="col-sm-6 align-self-center">  
                     <img src="assets\about us\ec_logo.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
                 </div>     
-                <div class="col-sm-5 justify-content-center mt-5 ">
+                <div class="col-sm-5 d-flex justify-content-center align-items-center mt-5 ">
                     <span class="text-center fs-4 partnerDescription"> 
                     United Nations Global Marketplace <br> #635673</span>
                 </div>              
@@ -90,7 +90,7 @@
                 <div class="col-sm-6 align-self-center">  
                     <img src="assets\about us\UPP.jpg" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
                 </div>     
-                <div class="col-sm-5 justify-content-center mt-5">
+                <div class="col-sm-5 d-flex justify-content-center align-items-center mt-5">
                     <span class="text-center fs-4 partnerDescription"> 
                     UN Partner Portal</span>
                 </div>
@@ -100,7 +100,7 @@
                 <div class="col-sm-6 align-self-center">  
                     <img src="assets\about us\VolunteerMatch.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
                 </div>     
-                <div class="col-sm-5 mt-5 justify-content-center">
+                <div class="col-sm-5 mt-5 d-flex justify-content-center align-items-center">
                     <span class="text-center fs-4 partnerDescription"> 
                     Volunteer Match</span>
                 </div>

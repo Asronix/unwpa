@@ -252,10 +252,8 @@ ul.social-media {
     width: 65% !important;
 }
 
-.partnerDescription span{
-    vertical-align: middle;
-    margin-top: 50%;
-    font-size: 50px;
+.partnerDescription{
+    font-size: 500px;
 }
 
 .unicef{
@@ -510,6 +508,10 @@ ul.social-media {
 
 
 //About Us - Non Profit Org
+
+.nonProfTitleContainer{
+margin: 0%; 
+}
 
 .nonProfTitle{
     margin-top: 8rem;
