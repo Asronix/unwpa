@@ -1,6 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+#navbarNavDropdown ul li a:link {
+  text-decoration: none;
+  -webkit-transform: 1s;
+          transform: 1s;
+}
+
+#navbarNavDropdown ul li a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 2px;
+}
+
 .header-bg {
   background-color: #2861F6;
   border-bottom: 10px solid #264caa;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
+  visibility: visible;
+  top: 3.6rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-conferences {
+  visibility: visible;
+  top: 3.6rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-about-us {
+  visibility: visible;
+  top: 3.6rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap {
+  position: relative;
+}
+
+.header-bg .hoverable_wrap ul li {
+  list-style-type: none;
+}
+
+.header-bg .hoverable_wrap .hoverable-news-and-update::before {
+  width: 3rem;
+  height: 3rem;
+  background-color: #000;
+}
+
+.header-bg .hoverable_wrap .hoverable-news-and-updates {
+  position: absolute;
+  z-index: 10;
+  top: 5rem;
+  background-color: #ffffff;
+  width: 20rem;
+  overflow-x: hidden;
+  visibility: visible;
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+.header-bg .hoverable_wrap .hoverable-conferences {
+  position: absolute;
+  z-index: 10;
+  top: 5rem;
+  background-color: #ffffff;
+  width: 20rem;
+  overflow-x: hidden;
+  visibility: visible;
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+.header-bg .hoverable_wrap .hoverable-about-us {
+  position: absolute;
+  z-index: 10;
+  top: 5rem;
+  right: 0;
+  width: 50rem;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  visibility: hidden;
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
 }
 
 .logo-bg {
