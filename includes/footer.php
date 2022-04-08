@@ -6,34 +6,9 @@
     <footer class="d-sm-none d-lg-block .d-sm-none .d-md-block footer1">
       <div class="row d-flex justify-content-end m-0 p-0">
         <div class="col-sm-8 h-50" style="height: 100px">
-          <nav class="navbar navbar-expand-lg navbar-light ">
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav ">
-                  <li class="nav-item">
-                  <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="#">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link text-light fw-bold mx-1" href="#">NEWS AND UPDATES</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link text-light fw-bold mx-1" href="#">AMBASSADORS</a>
-                  </li>
-                  <ul class="navbar-nav">
-                  <li class="nav-item">
-                  <a class="nav-link text-light fw-bold  mx-1" aria-current="page" href="#">CONFERENCES</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link text-light fw-bold mx-1" href="#">STRUCTURE MEMBERS</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link text-light fw-bold mx-1" href="#">ABOUT US</a>
-                  </li>
-                  </ul>
-              </div>
-            </nav>
         </div>
       </div>
-      <div class="row m-0 p-0">
+      <div class="row m-0 p-0 mt-5">
         <div class="d-flex justify-content-start">
           <div class="row m-0 p-0">
             <div class="col-sm-3">

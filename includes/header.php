@@ -13,7 +13,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ">
               <li class="nav-item">
-              <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="#">HOME</a>
+              <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="/unwpa/index.php">HOME</a>
               </li>
               <li class="nav-item hoverable_wrap">
                 <a class="nav-link text-light fw-bold mx-1 news-and-updates" href="#">NEWS AND UPDATES</a>
@@ -21,16 +21,16 @@
                     <span></span>
                     <ul>
                         <li  class="my-2">
-                            <a href="#">Articles and News</a>
+                            <a href="/unwpa/newsAndUpdates.php">Articles and News</a>
                         </li>
                         <li  class="my-2">
-                            <a href="#">Previous Events and Activities</a>
+                            <a href="/unwpa/newsAndUpdates.php">Previous Events and Activities</a>
                         </li>
                     </ul>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fw-bold mx-1" href="#">AMBASSADORS</a>
+                <a class="nav-link text-light fw-bold mx-1" href="/unwpa/ambassadors.php">AMBASSADORS</a>
                
               </li>
               <ul class="navbar-nav">
@@ -40,16 +40,16 @@
                         <span></span>
                         <ul>
                             <li class="my-2">
-                                <a href="#">Conference Participation</a>
+                                <a href="/unwpa/conference-participation.php">Conference Participation</a>
                             </li>
                             <li class="my-2">
-                                <a href="#">Upcoming Events</a>
+                                <a href="/unwpa/upcoming-events.php">Upcoming Events</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light fw-bold mx-1" href="#">STRUCTURE MEMBERS</a>
+                    <a class="nav-link text-light fw-bold mx-1" href="/unwpa/structureMembers.php">STRUCTURE MEMBERS</a>
                 </li>
                 <li class="nav-item hoverable_wrap">
                     <a class="nav-link text-light fw-bold mx-1 about-us-nav" href="#">ABOUT US</a>
@@ -58,10 +58,10 @@
                             <div class="col-sm-6">
                                 <ul>
                                     <li class="my-2">
-                                        <a href="#">Mission and Vision</a>
+                                        <a href="/unwpa/About Us - Landing.php">Mission and Vision</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="#">Partnership</a>
+                                        <a href="/unwpa/About Us - Partner Portal.php">Partnership</a>
                                     </li>
                                     <li class="my-2">
                                         <a href="#">What we do.</a>
@@ -92,37 +92,6 @@
         </nav>
         
       </div>
-    </div>
-    <div class="col-sm-8 h-50 mt-5 header-menu">
-      <nav class="navbar navbar-expand-lg navbar-light align-self-end float-end mt-5">
-        <span class="fs-3 text-uppercase fw-bolder text-light d-lg-none d-md-block">Menu</span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span id="menuIcon" class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ">
-            <li class="nav-item">
-            <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold mx-1" href="#">NEWS AND UPDATES</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold mx-1" href="#">AMBASSADORS</a>
-            </li>
-            <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold  mx-1" aria-current="page" href="#">CONFERENCES</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold mx-1" href="#">STRUCTURE MEMBERS</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold mx-1" href="About Us - Landing.html">ABOUT US</a>
-            </li>
-            </ul>
-          </div>
-      </nav>
     </div>
   </div>
 </div>';
