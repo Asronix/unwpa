@@ -265,6 +265,19 @@ ul.social-media {
 // Media Queries for Tablet 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
+    // About Us - Portal Access
+    .pPortalTitleContainer{
+        background: #000;
+
+        > div.row:first-child {
+            > div {
+                img {
+                    width: 50% !important;
+                }
+            }
+        }
+    }
+
     .overlay {
         padding: 2rem !important;
         margin: 0 !important;
@@ -351,6 +364,19 @@ ul.social-media {
 
 // Media Queries for Mobile
 @media screen and (min-width: 320px) and (max-width: 767px) {
+
+    // About Us - Portal Access
+    .pPortalTitleContainer{
+        background: red;
+
+        > div.row:first-child {
+            > div {
+                img {
+                    width: 50% !important;
+                }
+            }
+        }
+    }
 
     // upcoming events stylesheet
     .overlay {
@@ -514,7 +540,7 @@ margin: 0%;
 }
 
 .nonProfTitle{
-    margin-top: 8rem;
+    margin-top: 0rem;
 }
 
 .chapter1_BG{
@@ -523,4 +549,11 @@ margin: 0%;
 
 .chapter1_BG2{
     background-color: $aboutbgcolor4;
+}
+
+//About Us - Partners
+
+.partnersTitleContainer{
+    background-color: $aboutbgcolor1;
+
 }

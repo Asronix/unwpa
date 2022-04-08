@@ -19,9 +19,9 @@
   <?php include 'includes\header.php' ?>
 
 <!-- Title -->
-  <div class="container-fluid m-0 p-0 nonProfTitleContainer" >
+<div class="container-fluid m-0 p-0 nonProfTitleContainer" >
         <div class="container-fluid row m-0 p-0 ">
-            <div class="col-sm-6 p-5 d-flex justify-content-center align-items-center">
+            <div class="col-sm-6 p-5 d-flex justify-content-center align-items-center mb-1">
                 <img src="assets\about us\Non-Profit.png" alt="Non-Profit Organization
                 United Nation World Peace Association:
                 Articles of Association" class="img-fluid">

@@ -6,6 +6,7 @@
     <link href="assets\homepage\logo.png" rel="icon">
     <link rel="stylesheet" href="scss\style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
         body {
