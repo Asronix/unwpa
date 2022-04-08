@@ -22,19 +22,19 @@ body {
 
 .header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
   visibility: visible;
-  top: 3.6rem;
+  top: 2.3rem;
   opacity: 1;
 }
 
 .header-bg .hoverable_wrap:hover .hoverable-conferences {
   visibility: visible;
-  top: 3.6rem;
+  top: 2.3rem;
   opacity: 1;
 }
 
 .header-bg .hoverable_wrap:hover .hoverable-about-us {
   visibility: visible;
-  top: 3.6rem;
+  top: 2.3rem;
   opacity: 1;
 }
 
@@ -46,12 +46,6 @@ body {
   list-style-type: none;
 }
 
-.header-bg .hoverable_wrap .hoverable-news-and-update::before {
-  width: 3rem;
-  height: 3rem;
-  background-color: #000;
-}
-
 .header-bg .hoverable_wrap .hoverable-news-and-updates {
   position: absolute;
   z-index: 10;
@@ -59,9 +53,11 @@ body {
   background-color: #ffffff;
   width: 20rem;
   overflow-x: hidden;
-  visibility: visible;
+  visibility: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 2px;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: top 0.3s, opacity 0.3s;
   transition: top 0.3s, opacity 0.3s;
 }
@@ -74,6 +70,8 @@ body {
   width: 20rem;
   overflow-x: hidden;
   visibility: visible;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 2px;
   opacity: 0;
   -webkit-transition: top 0.3s, opacity 0.3s;
@@ -89,10 +87,30 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
   visibility: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 2px;
   opacity: 0;
   -webkit-transition: top 0.3s, opacity 0.3s;
   transition: top 0.3s, opacity 0.3s;
+}
+
+@-webkit-keyframes logoSlide {
+  from {
+    left: -50rem;
+  }
+  to {
+    left: 0rem;
+  }
+}
+
+@keyframes logoSlide {
+  from {
+    left: -50rem;
+  }
+  to {
+    left: 0rem;
+  }
 }
 
 .logo-bg {
@@ -234,6 +252,18 @@ ul.social-media li img {
   position: relative;
 }
 
+.head-bg button {
+  background-color: transparent;
+  color: #fff !important;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.head-bg button:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
+
 .head-bg:before {
   content: "";
   position: absolute;
@@ -247,6 +277,9 @@ ul.social-media li img {
           transform: skew(-30deg);
   -webkit-transform-origin: top;
           transform-origin: top;
+  position: absolute;
+  -webkit-animation: 1s ease-out 0s 1 logoSlide;
+          animation: 1s ease-out 0s 1 logoSlide;
 }
 
 .conference-button {

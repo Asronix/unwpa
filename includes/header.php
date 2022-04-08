@@ -1,5 +1,5 @@
-<?php echo '<!-- Header Section -->
-  <div class="container-fluid m-0 p-0 header-bg">
+<?php echo '<div class="container-fluid m-0 p-0 header-bg">
+    
     <div class="row mx-0">
       <div class="col-sm-4 logo-bg mb-2">
         <img src="assets\homepage\main-logo.png" alt="" srcset="" class="w-75 mt-2">
@@ -16,13 +16,14 @@
               <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item hoverable_wrap">
-                <a class="nav-link text-light fw-bold mx-1" href="#">NEWS AND UPDATES</a>
-                <div class="hoverable-news-and-updates">
+                <a class="nav-link text-light fw-bold mx-1 news-and-updates" href="#">NEWS AND UPDATES</a>
+                <div class="hoverable-news-and-updates p-3">
+                    <span></span>
                     <ul>
-                        <li>
+                        <li  class="my-2">
                             <a href="#">Articles and News</a>
                         </li>
-                        <li>
+                        <li  class="my-2">
                             <a href="#">Previous Events and Activities</a>
                         </li>
                     </ul>
@@ -34,13 +35,14 @@
               </li>
               <ul class="navbar-nav">
                 <li class="nav-item hoverable_wrap">
-                    <a class="nav-link text-light fw-bold  mx-1" aria-current="page" href="#">CONFERENCES</a>
-                    <div class="hoverable-conferences">
+                    <a class="nav-link text-light fw-bold mx-1 conferences-nav" aria-current="page" href="#">CONFERENCES</a>
+                    <div class="hoverable-conferences p-3">
+                        <span></span>
                         <ul>
-                            <li>
+                            <li class="my-2">
                                 <a href="#">Conference Participation</a>
                             </li>
-                            <li>
+                            <li class="my-2">
                                 <a href="#">Upcoming Events</a>
                             </li>
                         </ul>
@@ -50,34 +52,34 @@
                     <a class="nav-link text-light fw-bold mx-1" href="#">STRUCTURE MEMBERS</a>
                 </li>
                 <li class="nav-item hoverable_wrap">
-                    <a class="nav-link text-light fw-bold mx-1" href="#">ABOUT US</a>
-                    <div class="hoverable-about-us">
+                    <a class="nav-link text-light fw-bold mx-1 about-us-nav" href="#">ABOUT US</a>
+                    <div class="hoverable-about-us p-3">
                         <div class="row">
                             <div class="col-sm-6">
                                 <ul>
-                                    <li>
+                                    <li class="my-2">
                                         <a href="#">Mission and Vision</a>
                                     </li>
-                                    <li>
+                                    <li class="my-2">
                                         <a href="#">Partnership</a>
                                     </li>
-                                    <li>
+                                    <li class="my-2">
                                         <a href="#">What we do.</a>
                                     </li>
-                                    <li>
+                                    <li class="my-2">
                                         <a href="#">Peace Youth Advocacy</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-sm-6">
                                 <ul>
-                                    <li>
+                                    <li class="my-2">
                                         <a href="#">UNWPA Japan Board Members</a>
                                     </li>
-                                    <li>
+                                    <li class="my-2">
                                         <a href="#">Partner Portal Access.</a>
                                     </li>
-                                    <li>
+                                    <li class="my-2">
                                         <a href="#">Non-Profit Organization United Nation World Peace Association: Articles of Association</a>
                                     </li>                            
                                 </ul>
