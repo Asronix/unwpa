@@ -29,7 +29,7 @@ echo '<div class="container-fluid m-0 p-0 header-bg">
             <a class="nav-link text-light fw-bold mx-1" href="#">STRUCTURE MEMBERS</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-light fw-bold mx-1" href="#">ABOUT US</a>
+            <a class="nav-link text-light fw-bold mx-1" href="About Us - Landing.html">ABOUT US</a>
             </li>
             </ul>
           </div>
