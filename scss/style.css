@@ -176,7 +176,97 @@ ul.social-media li img {
           justify-content: space-between;
 }
 
+
 .membersTitleBg .divider1 .news-button {
+
+.pPortalTitleContainer {
+  background: #FFFFFF;
+}
+
+/* START OF STRUCTURE MEMBERS CSS */
+.bg-primary-cardbackground {
+  background-color: #24314C;
+}
+
+.border-warning-circle {
+  border-color: #ffc228;
+  border-width: 10px;
+}
+.img-fluid-profile {
+  height: auto;
+  width: 59%;
+
+}
+.img-fluid-profile-more {
+  height: auto;
+  width: 65%;
+
+}
+.img-size {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+.parallelogram {
+  width:max-content;
+  transform: skew(-39deg);
+  background-color: #264caa;
+  text-align: center;
+  /* margin-left: 86px; */
+  margin-top: -23px;
+  height: 22px;
+}
+.parallelogram-members {
+  width:max-content;
+  transform: skew(-39deg);
+  background-color: #264caa;
+  text-align: center;
+  margin-top: -23px;
+  height: 22px;
+}
+.text-white-fusao {
+  transform: skew(38deg);
+  margin-left: 4px;
+}
+.text-white-ayaka {
+  transform: skew(38deg);
+}
+.vr {
+  margin-right: 3px;
+  width: 3px;
+  transform: skew(38deg);
+  background-color: #FFC228;
+  opacity: unset;
+  height: fit-content;
+  display: inline-block;
+
+}
+
+.bkgnd {
+  background-color: #24314C;
+}
+.size {
+  border-radius: 0.25rem !important;
+}
+/* END OF STRUCTURE MEMBERS CSS */
+
+.section-1 {
+  background-image: linear-gradient(140deg, #646464, #959595);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay-logo {
+  height: 75%;
+  opacity: .5;
+  position: absolute;
+  margin-left: -269px;
+  margin-top: -8px;
+}
+
+.news-button {
+
   color: #fff;
   background-color: #646464;
   border-color: #0d6efd;
@@ -375,6 +465,25 @@ ul.social-media li img {
     background-color: #fff;
     border-radius: 2rem;
   }
+
+   /* STRUCTURE MEMBERS MEDIA QUERY TABLET */
+   .img-fluid-profile {
+    height: auto !important;
+    width: 91% !important;
+  }
+  p {
+    font-size: 18px;
+  }
+  .card-members {
+    width: 46.2% !important;
+
+  }
+  .card-kitagawa {
+    width: 46.2% !important;
+    margin-top: 4%;
+
+  }
+  
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -498,5 +607,7 @@ ul.social-media li img {
   .membersTitleBg .divider1 footer.footer1 {
     display: none;
   }
+
+
 }
 /*# sourceMappingURL=style.css.map */
