@@ -538,23 +538,7 @@ ul.social-media li img {
     border-radius: 2rem;
   }
 
-   /* STRUCTURE MEMBERS MEDIA QUERY TABLET */
-   .img-fluid-profile {
-    height: auto !important;
-    width: 91% !important;
-  }
-  p {
-    font-size: 18px;
-  }
-  .card-members {
-    width: 46.2% !important;
-
-  }
-  .card-kitagawa {
-    width: 46.2% !important;
-    margin-top: 4%;
-
-  }
+ 
   
 }
 
@@ -680,6 +664,22 @@ ul.social-media li img {
     display: none;
   }
 
+  /* STRUCTURE MEMBERS MEDIA QUERY TABLET */
+  .img-fluid-profile {
+    height: auto !important;
+    width: 91% !important;
+  }
+  p {
+    font-size: 18px;
+  }
+  .card-members {
+    width: 46.2% !important;
 
+  }
+  .card-kitagawa {
+    width: 46.2% !important;
+    margin-top: 4%;
+
+  }
 }
 /*# sourceMappingURL=style.css.map */
