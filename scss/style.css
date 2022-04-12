@@ -433,4 +433,41 @@ ul.social-media li img {
 .partnersTitleContainer {
   background-color: #F0F5FF;
 }
+
+.partnersTitle {
+  position: relative;
+}
+
+.hearthands {
+  height: auto;
+  width: 50rem;
+}
+
+.overlayTitle {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  bottom: 15rem;
+}
+
+.partnersCard {
+  background-color: #E8EFFF;
+  border-color: #E8EFFF;
+}
+
+.partnersImg1 {
+  height: 310px;
+  width: 20rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.partnersImg2 {
+  height: 310px;
+  width: 20rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
