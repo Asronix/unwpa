@@ -21,6 +21,11 @@ $formColorStroke: #FFC228;
 $formBgColor: #D78E00;
 $conferenceColor: #24314C;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
 
 
 .body{
@@ -30,6 +35,61 @@ $conferenceColor: #24314C;
 .header-bg {
     background-color: $backgroundColor;
     border-bottom: 10px solid $borderColor1;
+
+    .hoverable_wrap {
+        position: relative;       
+
+        .hoverable-news-and-updates {
+            position: absolute;
+            z-index: 10;
+            left: -37rem;
+            top: 3.6rem;
+            background-color: #ffffff;
+            height: 10rem;
+            width: 84.39rem;
+            overflow-x: hidden;
+            visibility: hidden;
+        }
+
+        .hoverable-conferences{
+            position: absolute;
+            z-index: 10;
+            left: -57rem;
+            top: 3.6rem;
+            background-color: #ffffff;
+            height: 10rem;
+            width: 84.36rem;
+            overflow-x: hidden;
+            visibility: hidden;
+        }
+
+        .hoverable-about-us {
+            position: absolute;
+            z-index: 10;
+            left: -78rem;
+            top: 3.6rem;
+            background-color: #ffffff;
+            height: 10rem;
+            width: 85.1rem;
+            overflow-x: hidden;
+            visibility: hidden;
+        }
+    }
+
+    .hoverable_wrap:hover .hoverable-news-and-updates {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .hoverable_wrap:hover .hoverable-conferences {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .hoverable_wrap:hover .hoverable-about-us {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
 .logo-bg {
@@ -202,7 +262,11 @@ ul.social-media {
 //Partnership Portal
 
 .pPortal_seperatorbg1{
+
     background:$aboutbgalt3;
+
+    background: $aboutbgalt3;
+
 }
 
 .pPortalTitleContainer{
@@ -261,6 +325,60 @@ ul.social-media {
     margin-top: 10px;
 }
 
+.paya-hero {
+    > .row:first-child {
+        > div:first-child {
+            background-image: url('../assets/about us/bg-paya1.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: -8rem 0rem;
+        }
+    }
+
+    .container {
+        h3 {
+            font-weight: 400;
+        }
+    }
+}
+
+.paya-hero1 {
+    > .row:first-child {
+
+        > div:last-child {
+            background-image: url('../assets/about us/bg-paya2.png');
+            background-size: 40rem 40rem;
+            background-repeat: no-repeat;
+            background-position: 5rem 0rem;
+        }
+    }
+
+    .container {
+        h3 {
+            font-weight: 400;
+            text-align: justify;
+        }
+    }
+
+    > .row:last-child {
+        background-image: url('../assets/about us/bg-paya1.png');
+        background-repeat: no-repeat;
+        background-size: 25rem 25rem;
+        background-position: -10rem 10rem;
+
+        h3 {
+            text-align: justify;
+            font-weight: 400;
+        }
+    }
+}
+
+.paya-hero2 {
+    h3 {
+        font-weight: 400;
+        text-align: justify;
+    }
+}
 
 // Media Queries for Tablet 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -533,6 +651,7 @@ ul.social-media {
 }
 
 
+
 //About Us - Non Profit Org
 
 .nonProfTitleContainer{
@@ -570,7 +689,7 @@ margin: 0%;
 .overlayTitle{
     position: absolute;
     justify-content: center;
-    color: white;
+    color: black;
     bottom: 15rem;
 }
 

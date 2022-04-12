@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
 .body {
   font-family: 'Poppins';
 }
@@ -5,6 +10,61 @@
 .header-bg {
   background-color: #2861F6;
   border-bottom: 10px solid #264caa;
+}
+
+.header-bg .hoverable_wrap {
+  position: relative;
+}
+
+.header-bg .hoverable_wrap .hoverable-news-and-updates {
+  position: absolute;
+  z-index: 10;
+  left: -37rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  height: 10rem;
+  width: 84.39rem;
+  overflow-x: hidden;
+  visibility: hidden;
+}
+
+.header-bg .hoverable_wrap .hoverable-conferences {
+  position: absolute;
+  z-index: 10;
+  left: -57rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  height: 10rem;
+  width: 84.36rem;
+  overflow-x: hidden;
+  visibility: hidden;
+}
+
+.header-bg .hoverable_wrap .hoverable-about-us {
+  position: absolute;
+  z-index: 10;
+  left: -78rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  height: 10rem;
+  width: 85.1rem;
+  overflow-x: hidden;
+  visibility: hidden;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
+  visibility: visible;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-conferences {
+  visibility: visible;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-about-us {
+  visibility: visible;
+  opacity: 1;
 }
 
 .logo-bg {
@@ -159,6 +219,7 @@ ul.social-media li img {
 .pPortal_seperatorbg1 {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #E8EFFF), color-stop(50%, #E8EFFF));
   background: linear-gradient(to bottom, #E8EFFF 50%, #E8EFFF 50%);
+  background: linear-gradient(to bottom, #E8EFFF 50%, #E8EFFF 50%);
 }
 
 .pPortalTitleContainer {
@@ -215,6 +276,46 @@ ul.social-media li img {
 .unicef {
   height: 92%;
   margin-top: 10px;
+}
+
+.paya-hero > .row:first-child > div:first-child {
+  background-image: url("../assets/about us/bg-paya1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: -8rem 0rem;
+}
+
+.paya-hero .container h3 {
+  font-weight: 400;
+}
+
+.paya-hero1 > .row:first-child > div:last-child {
+  background-image: url("../assets/about us/bg-paya2.png");
+  background-size: 40rem 40rem;
+  background-repeat: no-repeat;
+  background-position: 5rem 0rem;
+}
+
+.paya-hero1 .container h3 {
+  font-weight: 400;
+  text-align: justify;
+}
+
+.paya-hero1 > .row:last-child {
+  background-image: url("../assets/about us/bg-paya1.png");
+  background-repeat: no-repeat;
+  background-size: 25rem 25rem;
+  background-position: -10rem 10rem;
+}
+
+.paya-hero1 > .row:last-child h3 {
+  text-align: justify;
+  font-weight: 400;
+}
+
+.paya-hero2 h3 {
+  font-weight: 400;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -448,7 +549,7 @@ ul.social-media li img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: white;
+  color: black;
   bottom: 15rem;
 }
 

@@ -1,17 +1,17 @@
 <html>
 
 <head>
-    <title>United Nation World Peace</title>
+<title>United Nation World Peace</title>
     <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
     <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
+    <link rel="stylesheet" href="scss\conference.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <!-- Header Section -->
   <?php include 'includes\header.php' ?>
-   <!-- Head Section -->
+  <!-- Head Section -->
   <div class="container-fluid head-bg">
     <div class="d-flex align-items-center ms-5 bd-highlight mb-3 text-light" style="height: 100vh; position: absolute; z-index:2; ">
         <div class="p-2 bd-highlight  ms-5">
@@ -22,7 +22,7 @@
   </div>
 
   <!-- Participation Section -->
-  <div class="container-fluid mx-5 my-5 participation-section">
+  <div class="container-fluid px-5 my-5 participation-section">
       <div class="row">
             <div class="col-sm-6 p-0">
                 <img src="assets\conference-participation\bangladesh1.jpg" class="w-100" alt="">
@@ -35,13 +35,16 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-sm-6 p-0 d-none">
+                <img src="assets\conference-participation\myanmar1.jpg" class="w-100" alt="">
+            </div>
             <div class="col-sm-6 p-0 pt-5 pe-5">
                 <h3 class="fw-bold">MYANMAR</h3>
                 <p class="fw-bold">H.E Dr.Ven Sobhita</p>
                 <p  class="my-5">Maher Nasser, Director, Outreach Division, United Nations Department of Global Communications</p>
                 <button class="btn btn-primary">More</button>
             </div>
-            <div class="col-sm-6 p-0">
+            <div class="col-sm-6 p-0 d-block">
                 <img src="assets\conference-participation\myanmar1.jpg" class="w-100" alt="">
             </div>
         </div>
@@ -64,7 +67,7 @@
     </div>
     <!-- Post1 Section -->
     <div class="container-fluid post1">
-        <div class="row w-75 ms-5 mt-5" style="position: absolute; z-index: 2; top: 10%;">
+        <div class="row w-100 ps-2 mt-5" style="position: absolute; z-index: 2; top: 10%;">
             <div class="col-sm-6">
                 <img src="assets\conference-participation\myanmar1.jpg" class="img-fluid" alt="">
             </div>
@@ -125,7 +128,7 @@
             </div>
         
         
-            <div class="row w-100 ms-5" >
+            <div class="row w-100 ps-5" >
                 <h2 class="fw-medium">Cultural Performance</h2>
                 <p class="fs-4">Speakers</p>
                 <div class="col-sm-6 mt-3">
@@ -179,7 +182,7 @@
                 </div>
             </div>
 
-            <div class="row w-100 ms-5 mt-5 post-participants" >
+            <div class="row w-100 ps-5 mt-5 post-participants" >
                 <h5 class="fs-4 fw-light">Closing Remarks</h5>
                 <h5 class="fs-6 mt-3">Maruxa Cardama</h5>
                 <p class="fw-light">Chair, 68th United Nations Civil Society Conference</p>  
@@ -190,7 +193,7 @@
 
     <!-- Post2 Section -->
     <div class="container-fluid post2 mb-5">
-        <div class="row w-100 ms-5 mt-5">
+        <div class="row w-100 ps-5 mt-5">
             <div class="col-sm-6 ps-5 pt-5">
                 <h3 class="fw-bold">BANGLADESH</h3>
                 <p class="fw-medium">H.E MD. Firoz Alam Sumon</p>
@@ -208,7 +211,7 @@
 
      <!-- Post3 Section -->
      <div class="container-fluid post3">
-        <div class="row w-75 ms-5 mt-5" style="position: absolute; z-index: 2; top: 10%;">
+        <div class="row w-75 ps-5 mt-5" style="position: absolute; z-index: 2; top: 10%;">
             <div class="col-sm-6">
                 <img src="assets\conference-participation\myanmar1.jpg" class="img-fluid" alt="">
             </div>
@@ -225,7 +228,7 @@
     <div class="post3-1"></div>
     
     <!-- Conference Gallery Section -->
-    <div class="container-fluid mx-5">
+    <div class="container-fluid px-5">
         <h2 class="fw-bold text-center my-5">Gallery</h2>
         <div class="row">
             <div class="col-sm-7 gallery-show">
