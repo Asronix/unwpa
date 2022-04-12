@@ -8,70 +8,123 @@ body {
 
 }
 
+#navbarNavDropdown ul li a:link {
+  text-decoration: none;
+  -webkit-transform: 1s;
+          transform: 1s;
+}
+
+#navbarNavDropdown ul li a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 2px;
+}
+
 .header-bg {
   background-color: #2861F6;
   border-bottom: 10px solid #264caa;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
+  visibility: visible;
+  top: 2.3rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-conferences {
+  visibility: visible;
+  top: 2.3rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-about-us {
+  visibility: visible;
+  top: 2.3rem;
+  opacity: 1;
 }
 
 .header-bg .hoverable_wrap {
   position: relative;
 }
 
+.header-bg .hoverable_wrap ul li {
+  list-style-type: none;
+}
+
 .header-bg .hoverable_wrap .hoverable-news-and-updates {
   position: absolute;
   z-index: 10;
-  left: -37rem;
-  top: 3.6rem;
+  top: 5rem;
   background-color: #ffffff;
-  height: 10rem;
-  width: 84.39rem;
+  width: 20rem;
   overflow-x: hidden;
   visibility: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  opacity: 1;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
 }
 
 .header-bg .hoverable_wrap .hoverable-conferences {
   position: absolute;
   z-index: 10;
-  left: -57rem;
-  top: 3.6rem;
+  top: 5rem;
   background-color: #ffffff;
-  height: 10rem;
-  width: 84.36rem;
+  width: 20rem;
   overflow-x: hidden;
-  visibility: hidden;
+  visibility: visible;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
 }
 
 .header-bg .hoverable_wrap .hoverable-about-us {
   position: absolute;
   z-index: 10;
-  left: -78rem;
-  top: 3.6rem;
+  top: 5rem;
+  right: 0;
+  width: 50rem;
   background-color: #ffffff;
-  height: 10rem;
-  width: 85.1rem;
   overflow-x: hidden;
   visibility: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
 }
 
-.header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
-  visibility: visible;
-  opacity: 1;
+@-webkit-keyframes logoSlide {
+  from {
+    left: -30rem;
+  }
+  to {
+    left: 0rem;
+  }
 }
 
-.header-bg .hoverable_wrap:hover .hoverable-conferences {
-  visibility: visible;
-  opacity: 1;
-}
-
-.header-bg .hoverable_wrap:hover .hoverable-about-us {
-  visibility: visible;
-  opacity: 1;
+@keyframes logoSlide {
+  from {
+    left: -30rem;
+  }
+  to {
+    left: 0rem;
+  }
 }
 
 .logo-bg {
   background-image: url("../assets/homepage/header-logobg.png");
   background-size: 100% 100%;
+  position: relative;
   background-repeat: no-repeat;
+  -webkit-animation: 1.8s ease-out 0s 1 logoSlide;
+          animation: 1.8s ease-out 0s 1 logoSlide;
 }
 
 .pageCarousel {

@@ -46,19 +46,19 @@ body {
         
         .hoverable-news-and-updates {
             visibility: visible;
-            top: 3.6rem;
+            top: 2.3rem;
             opacity: 1;
         }
 
         .hoverable-conferences {
             visibility: visible;
-            top: 3.6rem;
+            top: 2.3rem;
             opacity: 1;
         }
 
         .hoverable-about-us {
             visibility: visible;
-            top: 3.6rem;
+            top: 2.3rem;
             opacity: 1;
         }
 
@@ -72,12 +72,6 @@ body {
             }
         }
 
-        .hoverable-news-and-update::before {
-            width: 3rem;
-            height: 3rem;
-            background-color: #000;
-        }
-        
         .hoverable-news-and-updates {
             position: absolute;
             z-index: 10;
@@ -85,9 +79,10 @@ body {
             background-color: #ffffff;
             width: 20rem;
             overflow-x: hidden;
-            visibility: visible;
+            visibility: hidden;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             border-radius: 2px;
-            opacity: 0;
+            opacity: 1;
             transition: top 0.3s, opacity 0.3s;
         }
     
@@ -99,6 +94,7 @@ body {
             width: 20rem;
             overflow-x: hidden;
             visibility: visible;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             border-radius: 2px;
             opacity: 0;
             transition: top 0.3s, opacity 0.3s;
@@ -113,6 +109,7 @@ body {
             background-color: #ffffff;
             overflow-x: hidden;
             visibility: hidden;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             border-radius: 2px;
             opacity: 0;
             transition: top 0.3s, opacity 0.3s;
@@ -120,6 +117,11 @@ body {
     }
 
     
+}
+
+@keyframes logoSlide {
+    from {left: -50rem}
+    to {left: 0rem}
 }
 
 .logo-bg {
@@ -265,7 +267,26 @@ ul.social-media {
     background-image: url('../assets/conference-participation/header-bg.jpg');
     background-size: cover;
     position: relative;
+
+    button {
+        background-color: transparent;
+        color: #fff !important;
+        transition: background-color 0.5s, color 0.5s;
+    }
+
+    button:hover {
+        background-color: #fff;
+        color: #000 !important;
+    }
+
+    h1 {
+        
+    }
+
+    
 }
+
+
 
 .head-bg:before {
     content: "";
@@ -278,6 +299,8 @@ ul.social-media {
     background: rgba($color: #24314C, $alpha: 0.65);
     transform: skew(-30deg);
     transform-origin:top;
+    position: absolute;
+    animation: 1s ease-out 0s 1 logoSlide;
 }
 
 .conference-button {
