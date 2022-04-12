@@ -725,5 +725,38 @@ margin: 0%;
 
 }
 
+.partnersTitle{
+    position:relative;
+}
 
+.hearthands{
+    height: auto;
+    width: 50rem;
+}
 
+.overlayTitle{
+    position: absolute;
+    justify-content: center;
+    color: black;
+    bottom: 15rem;
+}
+
+.partnersCard{
+    background-color: $aboutbgcolor2;
+    border-color: $aboutbgcolor2;
+}
+
+.partnersImg1{
+    height: 310px;
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.partnersImg2{
+    height: 310px;
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+
+}

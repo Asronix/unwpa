@@ -20,12 +20,12 @@
 
   <!-- Title -->
   <div class="container-fluid m-0 p-0 partnersTitleContainer" >
-    <div class="container-fluid row m-0 p-0 partnersTitle">
-        <div class="col-sm-6 p-5 d-flex justify-content-center align-items-center">
-          <h1> Partnership</h1>
-        </div>
-        <div class="col-sm-6 m-0 py-5 d-flex justify-content-center align-items-center partnersTitleImg">
-          <img src="assets\about us\heart-hands.png" alt="" class="img-fluid">
+    <div class="container-fluid row m-0 p-0 d-flex justify-content-center align-items-center">
+        <div class="col-sm-6 p-5 d-flex justify-content-center align-items-center partnersTitle">
+            <img src="assets\about us\heart-hands.png" alt="" class="img-fluid hearthands">
+            <div class="overlayTitle">
+            <h1> Partnership</h1>
+          </div>
         </div>
     </div>    
   </div>
@@ -39,27 +39,29 @@
             </div>
         </div>
 
-        <div class="col-sm-12 p-5 container-fluid fs-4 missionBg">
+        <div class="col-sm-12 p-5 pb-0 container-fluid missionBg">
             <div class="container-fluid row m-0 p-0"> 
-                <div class="col-sm-6 m-0  d-flex justify-content-center align-items-center ">
-                    <img src="assets\about us\CNADH.png" alt="CNADH" class="img-fluid"> <br>
-                    <h3> SCM-ITC INTERNATIONAL TRAINING CENTER <br>
-                            IS AN AUTHORIZED PARTNER OF UNWPA
-                        </h3>
+
+                <div class="card col-sm-6 m-0 p-0 pb-5 d-flex justify-content-center align-items-center partnersCard">
+                    <div class="card-body ">
+                    <img src="assets\about us\CNADH.png" alt="CNADH" class="img-fluid partnersImg1"> 
+                        <h5 class="text-center"> ENTRE NATIONAL DES DROITS DE L`HOMME IS <br>
+                            AN AUTHORIZED PARTNER OF UNWPA
+                        </h5>
+                    </div>                
                 </div>
 
-                <div class="col-sm-6 m-0 d-flex justify-content-center align-items-center">
-                    <img src="assets\about us\SCM-ITC.png" alt="SCM-ITC" class="img-fluid"> <br>
-                    <h3>CENTRE NATIONAL DES DROITS DE L`HOMME IS <br>
-                            AN AUTHORIZED PARTNER OF UNWPA
-                        </h3>
+                <div class="card col-sm-6 m-0 pb-5 d-flex justify-content-center align-items-center partnersCard">                
+                    <div class="card-body">
+                        <img src="assets\about us\SCM-ITC.png" alt="SCM-ITC" class="img-fluid partnersImg2"> 
+                            <h5 class="text-center scmtxt"> SCM-ITC INTERNATIONAL TRAINING CENTER <br>
+                                IS AN AUTHORIZED PARTNER OF UNWPA
+                            </h5>
+                        </div>     
                 </div>
             </div>
         </div>
     </div>
-
-
-
 
     <!-- Footer Section -->
     <?php include 'includes\footer.php' ?>
