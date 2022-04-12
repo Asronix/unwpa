@@ -1,13 +1,10 @@
 
 .body {
-  font-family: 'Poppins';
+  font-family: 'Poppins' !important;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-body {
-  font-family: 'Poppins', sans-serif !important;
 
 }
-
 #navbarNavDropdown ul li a:link {
   text-decoration: none;
   -webkit-transform: 1s;
@@ -204,7 +201,7 @@ ul.social-media li img {
 
 .bg-primary-cardbackground {
   background-color: #24314C;
-
+}
 .membersTitleBg .bg-primary-cardbackground {
   background-color: #24314C;
 }
@@ -240,7 +237,7 @@ ul.social-media li img {
 
 
 .membersTitleBg .divider1 .news-button {
-
+}
 .pPortalTitleContainer {
   background: #FFFFFF;
 
@@ -357,7 +354,7 @@ ul.social-media li img {
 
 
 .carousel-caption {
-
+}
 .membersTitleBg .divider1 .carousel-caption {
 
   position: absolute;
@@ -382,7 +379,7 @@ ul.social-media li img {
 }
 
 .pPortal_seperatorbg1 {
-
+}
 .membersTitleBg .divider1 .pPortal_seperatorbg1 {
 
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #E8EFFF), color-stop(50%, #E8EFFF));
@@ -391,7 +388,7 @@ ul.social-media li img {
 
 
 .pPortalTitleContainer {
-
+}
 .membersTitleBg .divider1 .pPortalTitleContainer {
 
   background: #FFFFFF;
@@ -442,7 +439,7 @@ ul.social-media li img {
 
 
 .partnerDescription {
-  font-size: 500px;
+  font-size: 500px;}
 
 .membersTitleBg .divider1 .partnerDescription span {
   vertical-align: middle;
@@ -583,7 +580,7 @@ ul.social-media li img {
     width: 50% !important;
   }
   .overlay {
-
+  }
   .membersTitleBg .divider1 .overlay {
 
     padding: 2rem !important;
@@ -744,4 +741,4 @@ ul.social-media li img {
 .partnersTitleContainer {
   background-color: #F0F5FF;
 }
-/*# sourceMappingURL=style.css.map */
+}
