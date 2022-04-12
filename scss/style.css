@@ -1,17 +1,133 @@
+
+.body {
+  font-family: 'Poppins' !important;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif !important;
 }
 
+.body {
+  font-family: 'Poppins';
+}
+#navbarNavDropdown ul li a:link {
+  text-decoration: none;
+  -webkit-transform: 1s;
+          transform: 1s;
+}
+
+#navbarNavDropdown ul li a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 2px;
+}
 
 .header-bg {
   background-color: #2861F6;
   border-bottom: 10px solid #264caa;
 }
 
+.header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
+  visibility: visible;
+  top: 2.3rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-conferences {
+  visibility: visible;
+  top: 2.3rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-about-us {
+  visibility: visible;
+  top: 2.3rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap {
+  position: relative;
+}
+
+.header-bg .hoverable_wrap ul li {
+  list-style-type: none;
+}
+
+.header-bg .hoverable_wrap .hoverable-news-and-updates {
+  position: absolute;
+  z-index: 10;
+  top: 5rem;
+  background-color: #ffffff;
+  width: 20rem;
+  overflow-x: hidden;
+  visibility: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  opacity: 1;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+.header-bg .hoverable_wrap .hoverable-conferences {
+  position: absolute;
+  z-index: 10;
+  top: 5rem;
+  background-color: #ffffff;
+  width: 20rem;
+  overflow-x: hidden;
+  visibility: visible;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+.header-bg .hoverable_wrap .hoverable-about-us {
+  position: absolute;
+  z-index: 10;
+  top: 5rem;
+  right: 0;
+  width: 50rem;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  visibility: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+@-webkit-keyframes logoSlide {
+  from {
+    left: -30rem;
+  }
+  to {
+    left: 0rem;
+  }
+}
+
+@keyframes logoSlide {
+  from {
+    left: -30rem;
+  }
+  to {
+    left: 0rem;
+  }
+}
+
 .logo-bg {
   background-image: url("../assets/homepage/header-logobg.png");
   background-size: 100% 100%;
+  position: relative;
   background-repeat: no-repeat;
+  -webkit-animation: 1.8s ease-out 0s 1 logoSlide;
+          animation: 1.8s ease-out 0s 1 logoSlide;
 }
 
 .pageCarousel {
@@ -88,42 +204,77 @@ ul.social-media li img {
   background-color: #BAD0FC;
 }
 
-.membersContainer {
-  background: #E8EFFF;
+.bg-primary-cardbackground {
+  background-color: #24314C;
+
+}
+.membersTitleBg .bg-primary-cardbackground {
+  background-color: #24314C;
 }
 
-.memberCards {
+.membersTitleBg .border-warning-circle {
+  border-color: #ffc228;
+  border-width: 10px;
+}
+
+.membersTitleBg .section-1 {
+  background-image: linear-gradient(140deg, #646464, #959595);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.membersTitleBg .overlay-logo {
+  opacity: .5;
+  position: absolute;
+  margin-left: -243px;
+}
+
+.membersTitleBg .memberCard1 {
+  width: 8rem;
+  height: 6rem;
+}
+
+.membersTitleBg .divider1 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+
+.membersTitleBg .divider1 .news-button {
+}
+.pPortalTitleContainer {
   background: #FFFFFF;
+
 }
 
-.memberName {
-  text-align: center;
-  font-weight: bold;
+/* START OF STRUCTURE MEMBERS CSS */
+.bg-primary-cardbackground {
+  background-color: #24314C;
 }
 
-.memberPos {
-  text-align: center;
-  font-weight: bold;
+
+
+=======
 }
 
-.memberCard0 {
-  width: 35rem;
-  background: blanchedalmond;
+.border-warning-circle {
+  border-color: #ffc228;
+  border-width: 10px;
 }
 
-.img-fluid-profImage {
-  width: 7rem;
-  padding: 2px;
-  margin-left: 2rem;
+.section-1 {
+  background-image: linear-gradient(140deg, #646464, #959595);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay-logo {
+  opacity: .5;
   position: absolute;
-}
-
-.img-fluid-memProf {
-  display: block;
-  width: 6.5rem;
-  padding: 2px;
-  margin-left: 2rem;
-  position: absolute;
+  margin-left: -243px;
 }
 
 .memberCard1 {
@@ -135,92 +286,6 @@ ul.social-media li img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.pPortalTitleContainer {
-  background: #FFFFFF;
-}
-
-/* START OF STRUCTURE MEMBERS CSS */
-.bg-primary-cardbackground {
-  background-color: #24314C;
-}
-
-.border-warning-circle {
-  border-color: #ffc228;
-  border-width: 10px;
-}
-.img-fluid-profile {
-  height: auto;
-  width: 59%;
-
-}
-.img-fluid-profile-more {
-  height: auto;
-  width: 65%;
-
-}
-.img-size {
-  width: 50%;
-  height: auto;
-  margin-top: 20px;
-}
-.parallelogram {
-  width:max-content;
-  transform: skew(-39deg);
-  background-color: #264caa;
-  text-align: center;
-  /* margin-left: 86px; */
-  margin-top: -23px;
-  height: 22px;
-}
-.parallelogram-members {
-  width:max-content;
-  transform: skew(-39deg);
-  background-color: #264caa;
-  text-align: center;
-  margin-top: -23px;
-  height: 22px;
-}
-.text-white-fusao {
-  transform: skew(38deg);
-  margin-left: 4px;
-}
-.text-white-ayaka {
-  transform: skew(38deg);
-}
-.vr {
-  margin-right: 3px;
-  width: 3px;
-  transform: skew(38deg);
-  background-color: #FFC228;
-  opacity: unset;
-  height: fit-content;
-  display: inline-block;
-
-}
-
-.bkgnd {
-  background-color: #24314C;
-}
-.size {
-  border-radius: 0.25rem !important;
-}
-/* END OF STRUCTURE MEMBERS CSS */
-
-.section-1 {
-  background-image: linear-gradient(140deg, #646464, #959595);
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.overlay-logo {
-  height: 69%;
-  opacity: .5;
-  position: absolute;
-  margin-left: -269px;
-  margin-top: -8px;
 }
 
 .news-button {
@@ -237,11 +302,13 @@ ul.social-media li img {
   border-radius: 40px;
 }
 
-.latest-news-and-events-texts {
-  color: #264caa;
-}
-
 .carousel-caption {
+
+}
+.membersTitleBg .divider1 .carousel-caption {
+
+=======
+
   position: absolute;
   bottom: 200;
 }
@@ -263,155 +330,17 @@ ul.social-media li img {
   font-size: 10px;
 }
 
-.left-element-with-background-image {
-  position: relative;
-  background-image: url("../assets/upcoming-events/CONFERENCE.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 90vh;
+.membersTitleBg .divider1 .pPortal_seperatorbg1 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #E8EFFF), color-stop(50%, #E8EFFF));
+  background: linear-gradient(to bottom, #E8EFFF 50%, #E8EFFF 50%);
+  background: linear-gradient(to bottom, #E8EFFF 50%, #E8EFFF 50%);
 }
 
-.overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 1;
+.pPortalTitleContainer {
 }
+.membersTitleBg .divider1 .pPortalTitleContainer {
 
-.left-color-overlay {
-  background-image: linear-gradient(269deg, #24314C, #24314c85);
-}
-
-.right-bg {
-  background-color: #24314C;
-}
-
-.form-registration h1 {
-  color: #F4B63C;
-}
-
-.form-registration h3 {
-  color: #FFDA7E;
-}
-
-.form-input input {
-  background-color: #24314C;
-  border: 1px solid #FFC228;
-}
-
-.form-input input::-webkit-input-placeholder {
-  color: #FFE7A9;
-}
-
-.form-input input:-ms-input-placeholder {
-  color: #FFE7A9;
-}
-
-.form-input input::-ms-input-placeholder {
-  color: #FFE7A9;
-}
-
-.form-input input::placeholder {
-  color: #FFE7A9;
-}
-
-.form-input button {
-  background-color: #D78E00;
-  border: none;
-}
-
-.head-bg {
-  height: 100vh;
-  margin: 0;
-  background-image: url("../assets/conference-participation/header-bg.jpg");
-  background-size: cover;
-  position: relative;
-}
-
-.head-bg:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  width: 65%;
-  background: rgba(36, 49, 76, 0.65);
-  -webkit-transform: skew(-30deg);
-          transform: skew(-30deg);
-  -webkit-transform-origin: top;
-          transform-origin: top;
-}
-
-.conference-button {
-  background-color: transparent;
-}
-
-.participation-section {
-  color: #24314C;
-}
-
-.participation-section button {
-  background-color: transparent;
-  border: 1px solid #24314C;
-  color: #24314C;
-  border-radius: 0;
-}
-
-.post1 {
-  height: 205vh;
-  margin: 0;
-  background-size: cover;
-  position: relative;
-}
-
-.post1 h3 {
-  color: #FFC228;
-}
-
-.post1 h2 {
-  color: #FFC228;
-}
-
-.post1 p {
-  color: #FFDA7E;
-}
-
-.post1:before {
-  content: "";
-  position: absolute;
-  top: 10%;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  background: #24314c;
-  -webkit-transform: skewY(4deg);
-          transform: skewY(4deg);
-  -webkit-transform-origin: top;
-          transform-origin: top;
-}
-
-.post3 {
-  height: 65vh;
-  margin: 0;
-  background-size: cover;
-  position: relative;
-}
-
-.post3 h3 {
-  color: #FFC228;
-}
-
-.post3 h4 {
-  color: #FFDA7E;
-}
-
-.post3 p {
-  color: #FFF3D4;
-
+  background: #FFFFFF;
 }
 
 .pPortalTitle {
@@ -457,10 +386,16 @@ ul.social-media li img {
   width: 65% !important;
 }
 
-.partnerDescription span {
+.partnerDescription {
+
+  font-size: 500px;}
+
+.membersTitleBg .divider1 .partnerDescription span {
   vertical-align: middle;
   margin-top: 50%;
   font-size: 50px;
+  font-size: 500px;
+
 }
 
 .unicef {
@@ -468,16 +403,53 @@ ul.social-media li img {
   margin-top: 10px;
 }
 
+.paya-hero > .row:first-child > div:first-child {
+  background-image: url("../assets/about us/bg-paya1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: -8rem 0rem;
+}
 
-.small-gallery-layer .layer-img {
-  background-color: rgba(0, 0, 0, 0.363);
-  position: absolute;
-  top: 0;
-  width: 75%;
-  height: 90%;
+.paya-hero .container h3 {
+  font-weight: 400;
+}
+
+.paya-hero1 > .row:first-child > div:last-child {
+  background-image: url("../assets/about us/bg-paya2.png");
+  background-size: 40rem 40rem;
+  background-repeat: no-repeat;
+  background-position: 5rem 0rem;
+}
+
+.paya-hero1 .container h3 {
+  font-weight: 400;
+  text-align: justify;
+}
+
+.paya-hero1 > .row:last-child {
+  background-image: url("../assets/about us/bg-paya1.png");
+  background-repeat: no-repeat;
+  background-size: 25rem 25rem;
+  background-position: -10rem 10rem;
+}
+
+.paya-hero1 > .row:last-child h3 {
+  text-align: justify;
+  font-weight: 400;
+}
+
+.paya-hero2 h3 {
+  font-weight: 400;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .pPortalTitleContainer {
+    background: #000;
+  }
+  .pPortalTitleContainer > div.row:first-child > div img {
+    width: 50% !important;
+  }
   .overlay {
     padding: 2rem !important;
     margin: 0 !important;
@@ -537,29 +509,20 @@ ul.social-media li img {
     background-color: #fff;
     border-radius: 2rem;
   }
-
-   /* STRUCTURE MEMBERS MEDIA QUERY TABLET */
-   .img-fluid-profile {
-    height: auto !important;
-    width: 91% !important;
-  }
-  p {
-    font-size: 18px;
-  }
-  .card-members {
-    width: 46.2% !important;
-
-  }
-  .card-kitagawa {
-    width: 46.2% !important;
-    margin-top: 4%;
-
-  }
-  
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .pPortalTitleContainer {
+    background: red;
+  }
+  .pPortalTitleContainer > div.row:first-child > div img {
+    width: 50% !important;
+  }
   .overlay {
+
+  }
+  .membersTitleBg .divider1 .overlay {
+
     padding: 2rem !important;
     margin: 0 !important;
   }
@@ -681,5 +644,83 @@ ul.social-media li img {
   }
 
 
+  /* STRUCTURE MEMBERS MEDIA QUERY TABLET */
+  .img-fluid-profile {
+    height: auto !important;
+    width: 91% !important;
+  }
+  p {
+    font-size: 18px;
+  }
+  .card-members {
+    width: 46.2% !important;
+
+  }
+  .card-kitagawa {
+    width: 46.2% !important;
+    margin-top: 4%;
+
+  }
+
+}
+
+.nonProfTitleContainer {
+  margin: 0%;
+}
+
+.nonProfTitle {
+  margin-top: 0rem;
+}
+
+.chapter1_BG {
+  background-color: #BAD0FC;
+}
+
+.chapter1_BG2 {
+  background-color: #E1EAFE;
+}
+
+.partnersTitleContainer {
+  background-color: #F0F5FF;
+}
+
+}
+
+
+.partnersTitle {
+  position: relative;
+}
+
+.hearthands {
+  height: auto;
+  width: 50rem;
+}
+
+.overlayTitle {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  bottom: 15rem;
+}
+
+.partnersCard {
+  background-color: #E8EFFF;
+  border-color: #E8EFFF;
+}
+
+.partnersImg1 {
+  height: 310px;
+  width: 20rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.partnersImg2 {
+  height: 310px;
+  width: 20rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

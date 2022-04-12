@@ -7,6 +7,7 @@ $whitebg: #FFFFFF;
 $aboutbgcolor1: #F0F5FF;
 $aboutbgcolor2:#E8EFFF;
 $aboutbgcolor3: #BAD0FC;
+$aboutbgcolor4: #E1EAFE;
 $aboutbgalt1: linear-gradient(to bottom, #F0F5FF 50%,  #E8EFFF 50%);
 $aboutbgalt2: linear-gradient(to bottom, #E8EFFF 50%, #F0F5FF 50%);
 $aboutbgalt3: linear-gradient(to bottom, $aboutbgcolor2 50%,  $aboutbgcolor2 50%);
@@ -20,17 +21,129 @@ $formColorStroke: #FFC228;
 $formBgColor: #D78E00;
 $conferenceColor: #24314C;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+#navbarNavDropdown {
+    ul {
+        li {
+            a:link {
+                text-decoration: none;
+                transform: 1s;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                text-underline-position: under;
+                text-decoration-thickness: 2px;
+            }
+        }
+    }
+}
+
+
+.body{
+    font-family: 'Poppins';
+}
 
 
 .header-bg {
     background-color: $backgroundColor;
     border-bottom: 10px solid $borderColor1;
+    
+    .hoverable_wrap:hover {
+        
+        .hoverable-news-and-updates {
+            visibility: visible;
+            top: 2.3rem;
+            opacity: 1;
+        }
+
+        .hoverable-conferences {
+            visibility: visible;
+            top: 2.3rem;
+            opacity: 1;
+        }
+
+        .hoverable-about-us {
+            visibility: visible;
+            top: 2.3rem;
+            opacity: 1;
+        }
+
+    } 
+
+    .hoverable_wrap {
+        position: relative; 
+        ul {
+            li {
+                list-style-type: none;
+            }
+        }
+
+        .hoverable-news-and-updates {
+            position: absolute;
+            z-index: 10;
+            top: 5rem;
+            background-color: #ffffff;
+            width: 20rem;
+            overflow-x: hidden;
+            visibility: hidden;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 2px;
+            opacity: 1;
+            transition: top 0.3s, opacity 0.3s;
+        }
+    
+        .hoverable-conferences{
+            position: absolute;
+            z-index: 10;
+            top: 5rem;
+            background-color: #ffffff;
+            width: 20rem;
+            overflow-x: hidden;
+            visibility: visible;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 2px;
+            opacity: 0;
+            transition: top 0.3s, opacity 0.3s;
+        }
+    
+        .hoverable-about-us {
+            position: absolute;
+            z-index: 10;
+            top: 5rem;
+            right: 0;
+            width: 50rem;
+            background-color: #ffffff;
+            overflow-x: hidden;
+            visibility: hidden;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 2px;
+            opacity: 0;
+            transition: top 0.3s, opacity 0.3s;
+        }
+    }
+
+    
+}
+
+@keyframes logoSlide {
+    from {left: -30rem}
+    to {left: 0rem}
 }
 
 .logo-bg {
     background-image: url('../assets/homepage/header-logobg.png');
     background-size: 100% 100%;
+    position: relative;
     background-repeat: no-repeat;
+    animation: 1.8s ease-out 0s 1 logoSlide;
 }
 
 .pageCarousel {
@@ -113,6 +226,7 @@ ul.social-media {
 }
 .membersTitleBg{
     background-color: $aboutbgcolor3;
+}
 
 .bg-primary-cardbackground {
     background-color: $backgroundColor2;
@@ -126,7 +240,7 @@ ul.social-media {
 }
 
 
-
+//???
 
 .section-1 {
     background-image: linear-gradient(140deg, $grayGradientColor2, $grayGradientColor1);
@@ -149,6 +263,8 @@ ul.social-media {
 
 .divider1{
     justify-content: space-between;
+
+}
 
 .news-button {
     color: #fff;
@@ -194,7 +310,11 @@ ul.social-media {
 //Partnership Portal
 
 .pPortal_seperatorbg1{
+
+    background:$aboutbgalt3;
+
     background: $aboutbgalt3;
+
 }
 
 .pPortalTitleContainer{
@@ -244,10 +364,8 @@ ul.social-media {
     width: 65% !important;
 }
 
-.partnerDescription span{
-    vertical-align: middle;
-    margin-top: 50%;
-    font-size: 50px;
+.partnerDescription{
+    font-size: 500px;
 }
 
 .unicef{
@@ -255,9 +373,76 @@ ul.social-media {
     margin-top: 10px;
 }
 
+.paya-hero {
+    > .row:first-child {
+        > div:first-child {
+            background-image: url('../assets/about us/bg-paya1.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: -8rem 0rem;
+        }
+    }
+
+    .container {
+        h3 {
+            font-weight: 400;
+        }
+    }
+}
+
+.paya-hero1 {
+    > .row:first-child {
+
+        > div:last-child {
+            background-image: url('../assets/about us/bg-paya2.png');
+            background-size: 40rem 40rem;
+            background-repeat: no-repeat;
+            background-position: 5rem 0rem;
+        }
+    }
+
+    .container {
+        h3 {
+            font-weight: 400;
+            text-align: justify;
+        }
+    }
+
+    > .row:last-child {
+        background-image: url('../assets/about us/bg-paya1.png');
+        background-repeat: no-repeat;
+        background-size: 25rem 25rem;
+        background-position: -10rem 10rem;
+
+        h3 {
+            text-align: justify;
+            font-weight: 400;
+        }
+    }
+}
+
+.paya-hero2 {
+    h3 {
+        font-weight: 400;
+        text-align: justify;
+    }
+}
 
 // Media Queries for Tablet 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    // About Us - Portal Access
+    .pPortalTitleContainer{
+        background: #000;
+
+        > div.row:first-child {
+            > div {
+                img {
+                    width: 50% !important;
+                }
+            }
+        }
+    }
 
     .overlay {
         padding: 2rem !important;
@@ -346,9 +531,19 @@ ul.social-media {
 // Media Queries for Mobile
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-    // landing page
+    // About Us - Portal Access
+    .pPortalTitleContainer{
+        background: red;
 
-    
+        > div.row:first-child {
+            > div {
+                img {
+                    width: 50% !important;
+                }
+            }
+        }
+    }
+
     // upcoming events stylesheet
     .overlay {
         padding: 2rem !important;
@@ -503,4 +698,65 @@ ul.social-media {
     }
 }
 
-}}
+
+
+//About Us - Non Profit Org
+
+.nonProfTitleContainer{
+margin: 0%; 
+}
+
+.nonProfTitle{
+    margin-top: 0rem;
+}
+
+.chapter1_BG{
+    background-color: $aboutbgcolor3;
+}
+
+.chapter1_BG2{
+    background-color: $aboutbgcolor4;
+}
+
+//About Us - Partners
+
+.partnersTitleContainer{
+    background-color: $aboutbgcolor1;
+
+}
+
+.partnersTitle{
+    position:relative;
+}
+
+.hearthands{
+    height: auto;
+    width: 50rem;
+}
+
+.overlayTitle{
+    position: absolute;
+    justify-content: center;
+    color: black;
+    bottom: 15rem;
+}
+
+.partnersCard{
+    background-color: $aboutbgcolor2;
+    border-color: $aboutbgcolor2;
+}
+
+.partnersImg1{
+    height: 310px;
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.partnersImg2{
+    height: 310px;
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+
+}
