@@ -28,122 +28,74 @@ body {
 }
 
 
-
-#navbarNavDropdown {
-    ul {
-        li {
-            a:link {
-                text-decoration: none;
-                transform: 1s;
-            }
-
-            a:hover {
-                text-decoration: underline;
-                text-underline-position: under;
-                text-decoration-thickness: 2px;
-            }
-        }
-    }
-}
-
-
 .body{
     font-family: 'Poppins';
 }
 
-
 .header-bg {
     background-color: $backgroundColor;
     border-bottom: 10px solid $borderColor1;
-    
-    .hoverable_wrap:hover {
-        
-        .hoverable-news-and-updates {
-            visibility: visible;
-            top: 2.3rem;
-            opacity: 1;
-        }
-
-        .hoverable-conferences {
-            visibility: visible;
-            top: 2.3rem;
-            opacity: 1;
-        }
-
-        .hoverable-about-us {
-            visibility: visible;
-            top: 2.3rem;
-            opacity: 1;
-        }
-
-    } 
 
     .hoverable_wrap {
-        position: relative; 
-        ul {
-            li {
-                list-style-type: none;
-            }
-        }
+        position: relative;       
 
         .hoverable-news-and-updates {
             position: absolute;
             z-index: 10;
-            top: 5rem;
+            left: -37rem;
+            top: 3.6rem;
             background-color: #ffffff;
-            width: 20rem;
+            height: 10rem;
+            width: 84.39rem;
             overflow-x: hidden;
             visibility: hidden;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            border-radius: 2px;
-            opacity: 1;
-            transition: top 0.3s, opacity 0.3s;
         }
-    
+
         .hoverable-conferences{
             position: absolute;
             z-index: 10;
-            top: 5rem;
+            left: -57rem;
+            top: 3.6rem;
             background-color: #ffffff;
-            width: 20rem;
+            height: 10rem;
+            width: 84.36rem;
             overflow-x: hidden;
-            visibility: visible;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            border-radius: 2px;
-            opacity: 0;
-            transition: top 0.3s, opacity 0.3s;
+            visibility: hidden;
         }
-    
+
         .hoverable-about-us {
             position: absolute;
             z-index: 10;
-            top: 5rem;
-            right: 0;
-            width: 50rem;
+            left: -78rem;
+            top: 3.6rem;
             background-color: #ffffff;
+            height: 10rem;
+            width: 85.1rem;
             overflow-x: hidden;
             visibility: hidden;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            border-radius: 2px;
-            opacity: 0;
-            transition: top 0.3s, opacity 0.3s;
         }
     }
 
-    
-}
+    .hoverable_wrap:hover .hoverable-news-and-updates {
+        visibility: visible;
+        opacity: 1;
+    }
 
-@keyframes logoSlide {
-    from {left: -30rem}
-    to {left: 0rem}
+    .hoverable_wrap:hover .hoverable-conferences {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .hoverable_wrap:hover .hoverable-about-us {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
 .logo-bg {
     background-image: url('../assets/homepage/header-logobg.png');
     background-size: 100% 100%;
-    position: relative;
     background-repeat: no-repeat;
-    animation: 1.8s ease-out 0s 1 logoSlide;
 }
 
 .pageCarousel {
@@ -372,7 +324,10 @@ ul.social-media {
     height: 92%;
     margin-top: 10px;
 }
+//partnership portal end
 
+
+//
 .paya-hero {
     > .row:first-child {
         > div:first-child {
