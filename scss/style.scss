@@ -177,9 +177,56 @@ ul.social-media {
     align-items: center;
 }
 
+.membersContainer{
+    background-color: $aboutbgcolor2;
+    height: auto;
+
+}
+
+.memberCard0{
+    background: $whitebg;
+    margin-top: 2rem;
+    height: 10rem;
+    border-style: groove;
+}
+
+.memberRow{
+    padding-left: 13rem !important;
+    padding-right: 13rem !important;
+}
+.memberCard1{
+    background: $whitebg;
+    margin-top: 2rem;
+    height: 15rem !important;
+    width: 15rem !important;
+    border-style: groove;
+    
+}
+
+.memberDesc0{
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.memberName2{
+    font-weight: bold;
+    padding-bottom: 0rem !important;
+    padding-top: .5rem;
+}
+
+.memberPos2{
+    font-weight: bold;
+    padding-bottom: 0rem !important;
+}
+
+.memberImage3{
+    padding-left: 1rem;
+}
+
 .memberTitle{
     margin-top: 8rem;
 }
+
 .membersTitleBg{
     background-color: $aboutbgcolor3;
 }
