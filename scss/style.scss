@@ -180,6 +180,9 @@ ul.social-media {
 .membersContainer{
     background-color: $aboutbgcolor2;
     height: auto;
+    width: 90%;
+    margin-bottom: 5rem;
+    
 
 }
 
@@ -187,20 +190,37 @@ ul.social-media {
     background: $whitebg;
     margin-top: 2rem;
     height: 10rem;
-    border-style: groove;
+    border-style: 1px solid;
+    box-shadow: 1px 1px 1px 1px #bdbdbd;
 }
 
 .memberRow{
-    padding-left: 13rem !important;
-    padding-right: 13rem !important;
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
 }
 .memberCard1{
     background: $whitebg;
     margin-top: 2rem;
     height: 15rem !important;
     width: 15rem !important;
-    border-style: groove;
+    border-style: 1px solid;
+    box-shadow: 1px 1px 1px 1px #bdbdbd;
     
+}
+
+.memberDesc0 p{
+    padding-bottom: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.memberName{
+    margin-top: 0.5rem;
+    padding-bottom: 0rem !important;
+}
+
+.memberPos{
+    margin-top: 0rem !important;
+    margin-bottom: 2rem;
 }
 
 .memberDesc0{
