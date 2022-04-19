@@ -61,26 +61,26 @@
                                         <a href="/unwpa/About Us - Landing.php">Mission and Vision</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="/unwpa/About Us - Partner Portal.php">Partnership</a>
+                                        <a href="/unwpa/About Us - Partners.php">Partnership</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="#">What we do.</a>
+                                        <a href="/unwpa/About Us - what we do.php">What we do.</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="#">Peace Youth Advocacy</a>
+                                        <a href="/unwpa/About Us - Peace and Youth Advocacy.php">Peace Youth Advocacy</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-sm-6">
                                 <ul>
                                     <li class="my-2">
-                                        <a href="#">UNWPA Japan Board Members</a>
+                                        <a href="/unwpa/About Us - members.php">UNWPA Japan Board Members</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="#">Partner Portal Access.</a>
+                                        <a href="/unwpa/About Us - Partner Portal.php">Partner Portal Access.</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="#">Non-Profit Organization United Nation World Peace Association: Articles of Association</a>
+                                        <a href="/unwpa/About Us - nonprofit.php">Non-Profit Organization United Nation World Peace Association: Articles of Association</a>
                                     </li>                            
                                 </ul>
                             </div>
