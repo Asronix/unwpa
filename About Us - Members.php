@@ -25,133 +25,111 @@
   
 
   <!--UNWPA JAPAN BOARD MEMBERS -->
-        <div class="container-fluid d-flex m-0 p-0">
+        <div class="container-fluid col-sm-12 m-0 p-0">
+            <div class="row m-0 p-0">
 
-            <div class="row-sm-9 m-0 members_seperatorbg1">
+            <div class="col-sm-10 m-0 members_seperatorbg1">
                 <div class= "position-absolute top-75 start-50 translate-middle px-5 py-2 membersTitleBg"> 
                 <h1 class="text-center fw-bold"> UNWPA JAPAN BOARD MEMBERS </h1>  
                 </div>
             </div>
+            </div>
 
-            <div class="container pt-5 pr-5  mb-5 membersContainer">
-
-                <div class="container-fluid row d-flex justify-content-center divider1">
-                    <div class="card mt-5 px-5 memberCard0"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberIma
-                        ge">  
-                            <img src="assets\about us\MIA.png" class="img-fluid-profImage">                       
+            <div class="container-fluid pt-5 membersContainer pb-5">
+                <div class="row m-0 p-0">
+                    <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard0">                       
+                        <div class="p-2 memberImage">  
+                            <img src="assets\about us\MIA.png" class="img-fluid">                       
                         </div>     
-                        <div>
-                                <span class="text-center memberName"> Fusao Kitagawa </span>
-                                <span class="text-center p-3 memberPos"> UNWPA Founder / President </span>
-                            </div>               
+                        <div class="memberDesc0">
+                            <p class="text-center memberName">Fusao Kitagawa </p> <br>
+                            <p class="text-center memberPos">UNWPA Founder / President </p>
+                        </div>                                 
                     </div>
                 </div>
-
-                <div class="container-fluid row d-flex justify-content-center divider2">
-
-                    <div class="card col-2 mt-5 align-center memberCard1"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberImage">  
-                            <img src="assets\about us\MIA.png" class="img-fluid-memProf">
-                        </div>  
-                            <div class="row d-flex justify-content-center"> 
-                                <span class="text-center p-3 memberName"> Inoue Tadaaki </span>
-                                <span class="text-center p-3 memberPos"> Director </span>
+                
+                <div class="container-fluid pt-2">
+                    <div class="row m-0 p-0 container-fluid memberRow">
+                        <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1"> 
+                            <div class="memberImage2"> 
+                                <img src="assets\about us\MIA.png" class="img-fluid">                                   
+                                <p class="text-center memberName2"> Inoue Tadaaki </p>
+                                <p class="text-center memberPos2"> Director </p>
                             </div>                                       
-                    </div>
-
-                    <div class="card col-2 mt-5 align-center memberCard2"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberImage">  
-                            <img src="assets\about us\MIA.png" class="img-fluid-memProf">
-                        </div> 
-                            <div class="row d-flex justify-content-center">
-                                <span class="text-center p-3 memberName"> Kazuaki Tanaka </span>
-                                <span class="text-center p-3 memberPos"> Director </span>                       
-                            </div>                    
-                    </div>
-
-                    <div class="card col-2 mt-5 align-center memberCard3"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberImage">  
-                            <img src="assets\about us\MIA.png" class="img-fluid-memProf">
-                        </div>  
-                            <div class="row d-flex justify-content-center">
-                                <span class="text-center p-3 memberName"> Hirome Abe </span>
-                                <span class="text-center p-3 memberPos"> Director </span>                    
-                            </div>                    
-                    </div>
-
-                    <div class="card col-2 mt-5 align-center memberCard4"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberImage">  
-                            <img src="assets\about us\MIA.png" class="img-fluid-memProf">
-                        </div>  
-                        <div class="row d-flex justify-content-center">
-                                <span class="p-3 memberName"> Akio Hosokawa </span>
-                                <span class="p-3 memberPos"> Director </span>                      
-                        </div>                    
-                    </div>  
-                </div>
-
-                <div class="container-fluid row d-flex justify-content-center divider2">
-
-                    <div class="card col-2 mt-5 align-center memberCard1"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberImage">  
-                            <img src="assets\about us\MIA.png" class="img-fluid-memProf">
-                        </div>  
-                            <div class="row d-flex justify-content-center"> 
-                                <span class="text-center p-3 memberName"> Masanori Takada </span>
-                                <span class="text-center p-3 memberPos"> Director </span>
-                            </div>                                       
-                    </div>
-
-                    <div class="card col-2 mt-5 align-center memberCard2"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberImage">  
-                            <img src="assets\about us\MIA.png" class="img-fluid-memProf">
-                        </div> 
-                            <div class="row d-flex justify-content-center">
-                                <span class="text-center p-3 memberName"> Yuji Inujima </span>
-                                <span class="text-center p-3 memberPos"> Director </span>                       
-                            </div>                    
-                    </div>
-
-                    <div class="card col-2 mt-5 align-center memberCard3"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberImage">  
-                            <img src="assets\about us\MIA.png" class="img-fluid-memProf">
-                        </div>  
-                            <div class="row d-flex justify-content-center">
-                                <span class="text-center p-3 memberName"> Goto Marina </span>
-                                <span class="text-center p-3 memberPos"> Director </span>                    
-                            </div>                    
-                    </div>
-
-                    <div class="card col-2 mt-5 align-center memberCard4"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberImage">  
-                            <img src="assets\about us\MIA.png" class="img-fluid-memProf">
-                        </div>  
-                        <div class="row d-flex justify-content-center">
-                                <span class="p-3 memberName"> Fukuda Tetsuo </span>
-                                <span class="p-3 memberPos"> Director </span>                      
-                        </div>                    
-                    </div>
-                <div>
-
-                <div class="container-fluid row d-flex justify-content-center divider2">
-                    <div class="card col-2 mt-5 align-center memberCard4"> 
-                            <div class="col-sm-5 p-3 justify-content-center memberImage">  
-                                <img src="assets\about us\MIA.png" class="img-fluid-memProf">
-                            </div>  
-                            <div class="row d-flex justify-content-center">
-                                    <span class="p-3 memberName"> Kawana Hidekazu </span>
-                                    <span class="p-3 memberPos"> Supervisor </span>                      
-                            </div>                    
                         </div>
+                        <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1"> 
+                            <div class="memberImage2"> 
+                                <img src="assets\about us\MIA.png" class="img-fluid">                                   
+                                <p class="text-center memberName2"> Kazuaki Tanaka </p>
+                                <p class="text-center memberPos2"> Director </p>
+                            </div>                                       
+                        </div>
+                        <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1"> 
+                            <div class="memberImage2"> 
+                                <img src="assets\about us\MIA.png" class="img-fluid">                                   
+                                <p class="text-center memberName2"> Hirome Abe </p>
+                                <p class="text-center memberPos2"> Director </p>
+                            </div>                                       
+                        </div>
+                        <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1"> 
+                            <div class="memberImage2"> 
+                                <img src="assets\about us\MIA.png" class="img-fluid">                                   
+                                <p class="text-center memberName2"> Akio Hosokawa </p>
+                                <p class="text-center memberPos2"> Director </p>
+                            </div>                                       
+                        </div>
+                    </div>
                 </div>
 
+
+                <div class="container-fluid pt-2">
+                    <div class="row m-0 p-0 container-fluid memberRow">
+                        <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1"> 
+                            <div class="memberImage2"> 
+                                <img src="assets\about us\MIA.png" class="img-fluid">                                   
+                                <p class="text-center memberName2"> Masanori Takada </p>
+                                <p class="text-center memberPos2"> Director </p>
+                            </div>                                       
+                        </div>
+                        <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1"> 
+                            <div class="memberImage2"> 
+                                <img src="assets\about us\MIA.png" class="img-fluid">                                   
+                                <p class="text-center memberName2"> Yuji Inujima </p>
+                                <p class="text-center memberPos2"> Director </p>
+                            </div>                                       
+                        </div>
+                        <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1"> 
+                            <div class="memberImage2"> 
+                                <img src="assets\about us\MIA.png" class="img-fluid">                                   
+                                <p class="text-center memberName2"> Goto Marina </p>
+                                <p class="text-center memberPos2"> Director </p>
+                            </div>                                       
+                        </div>
+                        <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1"> 
+                            <div class="memberImage2"> 
+                                <img src="assets\about us\MIA.png" class="img-fluid">                                   
+                                <p class="text-center memberName2"> Fukuda Tetsuo </p>
+                                <p class="text-center memberPos2"> Director </p>
+                            </div>                                       
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid pt-2 pb-5">
+                    <div class="row m-0 p-0 container-fluid memberRow">
+                        <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1"> 
+                            <div class="memberImage3"> 
+                                <img src="assets\about us\MIA.png" class="img-fluid">                                   
+                                <p class="text-center memberName2"> Kawana Hidekazu </p>
+                                <p class="text-center memberPos2"> Supervisor </p>
+                            </div>                                       
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-
 
     <!-- Footer Section -->
     <?php include 'includes\footer.php' ?>

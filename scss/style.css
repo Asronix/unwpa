@@ -1,9 +1,9 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
   font-family: 'Poppins', sans-serif !important;
 }
+
 
 #navbarNavDropdown ul li a:link {
   text-decoration: none;
@@ -15,6 +15,9 @@ body {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-thickness: 2px;
+
+.body {
+  font-family: 'Poppins';
 }
 
 .header-bg {
@@ -22,71 +25,42 @@ body {
   border-bottom: 10px solid #264caa;
 }
 
-.header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
-  visibility: visible;
-  top: 2.3rem;
-  opacity: 1;
-}
-
-.header-bg .hoverable_wrap:hover .hoverable-conferences {
-  visibility: visible;
-  top: 2.3rem;
-  opacity: 1;
-}
-
-.header-bg .hoverable_wrap:hover .hoverable-about-us {
-  visibility: visible;
-  top: 2.3rem;
-  opacity: 1;
-}
-
 .header-bg .hoverable_wrap {
   position: relative;
-}
-
-.header-bg .hoverable_wrap ul li {
-  list-style-type: none;
 }
 
 .header-bg .hoverable_wrap .hoverable-news-and-updates {
   position: absolute;
   z-index: 10;
-  top: 5rem;
+  left: -37rem;
+  top: 3.6rem;
   background-color: #ffffff;
-  width: 20rem;
+  height: 10rem;
+  width: 84.39rem;
   overflow-x: hidden;
   visibility: hidden;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 2px;
-  opacity: 1;
-  -webkit-transition: top 0.3s, opacity 0.3s;
-  transition: top 0.3s, opacity 0.3s;
 }
 
 .header-bg .hoverable_wrap .hoverable-conferences {
   position: absolute;
   z-index: 10;
-  top: 5rem;
+  left: -57rem;
+  top: 3.6rem;
   background-color: #ffffff;
-  width: 20rem;
+  height: 10rem;
+  width: 84.36rem;
   overflow-x: hidden;
-  visibility: visible;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 2px;
-  opacity: 0;
-  -webkit-transition: top 0.3s, opacity 0.3s;
-  transition: top 0.3s, opacity 0.3s;
+  visibility: hidden;
 }
 
 .header-bg .hoverable_wrap .hoverable-about-us {
   position: absolute;
   z-index: 10;
-  top: 5rem;
-  right: 0;
-  width: 50rem;
+  left: -78rem;
+  top: 3.6rem;
   background-color: #ffffff;
+  height: 10rem;
+  width: 85.1rem;
   overflow-x: hidden;
   visibility: hidden;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -97,31 +71,25 @@ body {
   transition: top 0.3s, opacity 0.3s;
 }
 
-@-webkit-keyframes logoSlide {
-  from {
-    left: -30rem;
-  }
-  to {
-    left: 0rem;
-  }
+.header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
+  visibility: visible;
+  opacity: 1;
 }
 
-@keyframes logoSlide {
-  from {
-    left: -30rem;
-  }
-  to {
-    left: 0rem;
-  }
+.header-bg .hoverable_wrap:hover .hoverable-conferences {
+  visibility: visible;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-about-us {
+  visibility: visible;
+  opacity: 1;
 }
 
 .logo-bg {
   background-image: url("../assets/homepage/header-logobg.png");
   background-size: 100% 100%;
-  position: relative;
   background-repeat: no-repeat;
-  -webkit-animation: 1.8s ease-out 0s 1 logoSlide;
-          animation: 1.8s ease-out 0s 1 logoSlide;
 }
 
 .pageCarousel {
@@ -190,6 +158,72 @@ ul.social-media li img {
           align-items: center;
 }
 
+.membersContainer {
+  background-color: #E8EFFF;
+  height: auto;
+  width: 90%;
+  margin-bottom: 5rem;
+}
+
+.memberCard0 {
+  background: #FFFFFF;
+  margin-top: 2rem;
+  height: 10rem;
+  border-style: 1px solid;
+  -webkit-box-shadow: 1px 1px 1px 1px #bdbdbd;
+          box-shadow: 1px 1px 1px 1px #bdbdbd;
+}
+
+.memberRow {
+  padding-left: 10rem !important;
+  padding-right: 10rem !important;
+}
+
+.memberCard1 {
+  background: #FFFFFF;
+  margin-top: 2rem;
+  height: 15rem !important;
+  width: 15rem !important;
+  border-style: 1px solid;
+  -webkit-box-shadow: 1px 1px 1px 1px #bdbdbd;
+          box-shadow: 1px 1px 1px 1px #bdbdbd;
+}
+
+.memberDesc0 p {
+  padding-bottom: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.memberName {
+  margin-top: 0.5rem;
+  padding-bottom: 0rem !important;
+}
+
+.memberPos {
+  margin-top: 0rem !important;
+  margin-bottom: 2rem;
+}
+
+.memberDesc0 {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.memberName2 {
+  font-weight: bold;
+  padding-bottom: 0rem !important;
+  padding-top: .5rem;
+}
+
+.memberPos2 {
+  font-weight: bold;
+  padding-bottom: 0rem !important;
+}
+
+.memberImage3 {
+  padding-left: 1rem;
+}
+
 .memberTitle {
   margin-top: 8rem;
 }
@@ -198,52 +232,6 @@ ul.social-media li img {
   background-color: #BAD0FC;
 }
 
-.bg-primary-cardbackground {
-  background-color: #24314C;
-
-}
-.membersTitleBg .bg-primary-cardbackground {
-  background-color: #24314C;
-}
-
-.membersTitleBg .border-warning-circle {
-  border-color: #ffc228;
-  border-width: 10px;
-}
-
-.membersTitleBg .section-1 {
-  background-image: linear-gradient(140deg, #646464, #959595);
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.membersTitleBg .overlay-logo {
-  opacity: .5;
-  position: absolute;
-  margin-left: -243px;
-}
-
-.membersTitleBg .memberCard1 {
-  width: 8rem;
-  height: 6rem;
-}
-
-.membersTitleBg .divider1 {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-
-.membersTitleBg .divider1 .news-button {
-}
-.pPortalTitleContainer {
-  background: #FFFFFF;
-
-}
-
-/* START OF STRUCTURE MEMBERS CSS */
 .bg-primary-cardbackground {
   background-color: #24314C;
 }
@@ -348,9 +336,9 @@ ul.social-media li img {
 
 .carousel-caption {
 
+
 }
 .membersTitleBg .divider1 .carousel-caption {
-
 
 
   position: absolute;
@@ -374,16 +362,13 @@ ul.social-media li img {
   font-size: 10px;
 }
 
-.membersTitleBg .divider1 .pPortal_seperatorbg1 {
+.pPortal_seperatorbg1 {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #E8EFFF), color-stop(50%, #E8EFFF));
   background: linear-gradient(to bottom, #E8EFFF 50%, #E8EFFF 50%);
   background: linear-gradient(to bottom, #E8EFFF 50%, #E8EFFF 50%);
 }
 
 .pPortalTitleContainer {
-}
-.membersTitleBg .divider1 .pPortalTitleContainer {
-
   background: #FFFFFF;
 }
 
@@ -431,15 +416,7 @@ ul.social-media li img {
 }
 
 .partnerDescription {
-
-  font-size: 500px;}
-
-.membersTitleBg .divider1 .partnerDescription span {
-  vertical-align: middle;
-  margin-top: 50%;
-  font-size: 50px;
   font-size: 500px;
-
 }
 
 .unicef {
@@ -563,10 +540,6 @@ ul.social-media li img {
     width: 50% !important;
   }
   .overlay {
-
-  }
-  .membersTitleBg .divider1 .overlay {
-
     padding: 2rem !important;
     margin: 0 !important;
   }
@@ -686,26 +659,6 @@ ul.social-media li img {
   footer.footer1 {
     display: none;
   }
-
-
-  /* STRUCTURE MEMBERS MEDIA QUERY TABLET */
-  .img-fluid-profile {
-    height: auto !important;
-    width: 91% !important;
-  }
-  p {
-    font-size: 18px;
-  }
-  .card-members {
-    width: 46.2% !important;
-
-  }
-  .card-kitagawa {
-    width: 46.2% !important;
-    margin-top: 4%;
-
-  }
-
 }
 
 .nonProfTitleContainer {
@@ -727,9 +680,6 @@ ul.social-media li img {
 .partnersTitleContainer {
   background-color: #F0F5FF;
 }
-
-
-
 
 .partnersTitle {
   position: relative;
@@ -766,5 +716,17 @@ ul.social-media li img {
   width: 20rem;
   margin-bottom: 1rem;
   margin-left: 3rem;
+}
+
+.wwdText h4 {
+  margin-left: 5rem;
+}
+
+.wwdDescBg {
+  background: #F0F5FF;
+}
+
+.wwdPurposeBg {
+  background: #E8EFFF;
 }
 /*# sourceMappingURL=style.css.map */
