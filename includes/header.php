@@ -64,7 +64,7 @@
                                         <a href="/unwpa/About Us - Partner Portal.php">Partnership</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="#">What we do.</a>
+                                        <a href="/unwpa/About Us - What We Do.php">What we do.</a>
                                     </li>
                                     <li class="my-2">
                                         <a href="/unwpa/About Us - Peace Youth Advocacy.php">Peace Youth Advocacy</a>
@@ -74,13 +74,13 @@
                             <div class="col-sm-6">
                                 <ul>
                                     <li class="my-2">
-                                        <a href="#">UNWPA Japan Board Members</a>
+                                        <a href="/unwpa/About Us - Members.php">UNWPA Japan Board Members</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="#">Partner Portal Access.</a>
+                                        <a href="/unwpa/About Us - Partners.php">Partner Portal Access.</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="#">Non-Profit Organization United Nation World Peace Association: Articles of Association</a>
+                                        <a href="/unwpa/about us - nonprofit.php">Non-Profit Organization United Nation World Peace Association: Articles of Association</a>
                                     </li>                            
                                 </ul>
                             </div>

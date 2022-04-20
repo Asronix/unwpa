@@ -1,6 +1,4 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
 body {
   font-family: 'Poppins', sans-serif !important;
 }
@@ -15,6 +13,69 @@ body {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-thickness: 2px;
+}
+
+.left-element-with-background-image {
+  position: relative;
+  background-image: url("../assets/upcoming-events/CONFERENCE.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.left-color-overlay {
+  background-image: linear-gradient(269deg, #24314C, #24314c85);
+}
+
+.right-bg {
+  background-color: #24314C;
+}
+
+.form-registration h1 {
+  color: #F4B63C;
+}
+
+.form-registration h3 {
+  color: #FFDA7E;
+}
+
+.form-input input {
+  background-color: #24314C;
+  border: 1px solid #FFC228;
+}
+
+.form-input input::-webkit-input-placeholder {
+  color: #FFE7A9;
+}
+
+.form-input input:-ms-input-placeholder {
+  color: #FFE7A9;
+}
+
+.form-input input::-ms-input-placeholder {
+  color: #FFE7A9;
+}
+
+.form-input input::placeholder {
+  color: #FFE7A9;
+}
+
+.form-input button {
+  background-color: #D78E00;
+  border: none;
+}
+
+.body {
+  font-family: 'Poppins';
 }
 
 .header-bg {
@@ -200,113 +261,12 @@ ul.social-media li img {
 
 .bg-primary-cardbackground {
   background-color: #24314C;
-
-}
-.membersTitleBg .bg-primary-cardbackground {
-  background-color: #24314C;
-}
-
-.membersTitleBg .border-warning-circle {
-  border-color: #ffc228;
-  border-width: 10px;
-}
-
-.membersTitleBg .section-1 {
-  background-image: linear-gradient(140deg, #646464, #959595);
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.membersTitleBg .overlay-logo {
-  opacity: .5;
-  position: absolute;
-  margin-left: -243px;
-}
-
-.membersTitleBg .memberCard1 {
-  width: 8rem;
-  height: 6rem;
-}
-
-.membersTitleBg .divider1 {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-
-.membersTitleBg .divider1 .news-button {
-}
-.pPortalTitleContainer {
-  background: #FFFFFF;
-
-}
-
-/* START OF STRUCTURE MEMBERS CSS */
-.bg-primary-cardbackground {
-  background-color: #24314C;
 }
 
 .border-warning-circle {
   border-color: #ffc228;
   border-width: 10px;
 }
-
-.img-fluid-profile {
-  height: auto;
-  width: 59%;
-}
-.img-fluid-profile-more {
-  height: auto;
-  width: 65%;
-}
-.img-size {
-  width: 50%;
-  height: auto;
-  margin-top: 20px;
-}
-.parallelogram {
-  width:max-content;
-  transform: skew(-39deg);
-  background-color: #264caa;
-  text-align: center;
-  /* margin-left: 86px; */
-  margin-top: -23px;
-  height: 22px;
-}
-.parallelogram-members {
-  width:max-content;
-  transform: skew(-39deg);
-  background-color: #264caa;
-  text-align: center;
-  margin-top: -23px;
-  height: 22px;
-}
-.text-white-fusao {
-  transform: skew(38deg);
-  margin-left: 4px;
-}
-.text-white-ayaka {
-  transform: skew(38deg);
-}
-.vr {
-  margin-right: 3px;
-  width: 3px;
-  transform: skew(38deg);
-  background-color: #FFC228;
-  opacity: unset;
-  height: fit-content;
-  display: inline-block;
-}
-.bkgnd {
-  background-color: #24314C;
-}
-.size {
-  border-radius: 0.25rem !important;
-}
-/* END OF STRUCTURE MEMBERS CSS */
-
 
 .section-1 {
   background-image: linear-gradient(140deg, #646464, #959595);
@@ -347,12 +307,6 @@ ul.social-media li img {
 }
 
 .carousel-caption {
-
-}
-.membersTitleBg .divider1 .carousel-caption {
-
-
-
   position: absolute;
   bottom: 200;
 }
@@ -374,16 +328,13 @@ ul.social-media li img {
   font-size: 10px;
 }
 
-.membersTitleBg .divider1 .pPortal_seperatorbg1 {
+.pPortal_seperatorbg1 {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #E8EFFF), color-stop(50%, #E8EFFF));
   background: linear-gradient(to bottom, #E8EFFF 50%, #E8EFFF 50%);
   background: linear-gradient(to bottom, #E8EFFF 50%, #E8EFFF 50%);
 }
 
 .pPortalTitleContainer {
-}
-.membersTitleBg .divider1 .pPortalTitleContainer {
-
   background: #FFFFFF;
 }
 
@@ -431,15 +382,7 @@ ul.social-media li img {
 }
 
 .partnerDescription {
-
-  font-size: 500px;}
-
-.membersTitleBg .divider1 .partnerDescription span {
-  vertical-align: middle;
-  margin-top: 50%;
-  font-size: 50px;
   font-size: 500px;
-
 }
 
 .unicef {
@@ -451,11 +394,20 @@ ul.social-media li img {
   background-image: url("../assets/about us/bg-paya1.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: -8rem 0rem;
+  background-position: -10rem 0rem;
 }
 
-.paya-hero .container h3 {
-  font-weight: 400;
+.advocacy-list {
+  list-style-type: none;
+}
+
+ul.advocacy-list li::before {
+  background-color: #000;
+  content: '00';
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-right: 5px;
 }
 
 .paya-hero1 > .row:first-child > div:last-child {
@@ -482,9 +434,39 @@ ul.social-media li img {
   font-weight: 400;
 }
 
-.paya-hero2 h3 {
+.save-box {
+  background-color: #E8EFFF;
+  -webkit-box-shadow: 0px 4px 5px;
+          box-shadow: 0px 4px 5px;
+}
+
+.paya-hero3 {
+  background-image: url("../assets/about us/bg-paya3.png");
+  background-size: 30rem 33rem;
+  background-repeat: no-repeat;
+  background-position: 0rem 10rem;
+  height: 100vh !important;
+}
+
+.paya-justify p {
+  text-align: justify;
+}
+
+.paya-hero2 {
+  background-image: url("../assets/about us/bg-paya2.png");
+  background-size: 30rem 40rem;
+  background-repeat: no-repeat;
+  background-position: 65rem 5rem;
+}
+
+.paya-hero2 .container h3 {
   font-weight: 400;
   text-align: justify;
+}
+
+.paya-hero2 > .row:last-child h3 {
+  text-align: justify;
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -563,10 +545,6 @@ ul.social-media li img {
     width: 50% !important;
   }
   .overlay {
-
-  }
-  .membersTitleBg .divider1 .overlay {
-
     padding: 2rem !important;
     margin: 0 !important;
   }
@@ -686,26 +664,6 @@ ul.social-media li img {
   footer.footer1 {
     display: none;
   }
-
-
-  /* STRUCTURE MEMBERS MEDIA QUERY TABLET */
-  .img-fluid-profile {
-    height: auto !important;
-    width: 91% !important;
-  }
-  p {
-    font-size: 18px;
-  }
-  .card-members {
-    width: 46.2% !important;
-
-  }
-  .card-kitagawa {
-    width: 46.2% !important;
-    margin-top: 4%;
-
-  }
-
 }
 
 .nonProfTitleContainer {
@@ -727,9 +685,6 @@ ul.social-media li img {
 .partnersTitleContainer {
   background-color: #F0F5FF;
 }
-
-
-
 
 .partnersTitle {
   position: relative;
