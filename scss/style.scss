@@ -436,6 +436,26 @@ ul.social-media {
 
 }
 
+.activities-post {
+    position: relative;
+    height: 15vh;
+    img {
+        position: absolute;
+        z-index: -1;
+    }
+
+    div {
+        height: inherit;
+        p {
+            font-size: 10px;
+            color: #fff;
+            border-left: 3px solid #F4B63C;
+        }
+    }
+
+    
+}
+
 .advocacy-list {
     list-style-type: none;
 }

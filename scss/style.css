@@ -397,6 +397,26 @@ ul.social-media li img {
   background-position: -10rem 0rem;
 }
 
+.activities-post {
+  position: relative;
+  height: 15vh;
+}
+
+.activities-post img {
+  position: absolute;
+  z-index: -1;
+}
+
+.activities-post div {
+  height: inherit;
+}
+
+.activities-post div p {
+  font-size: 10px;
+  color: #fff;
+  border-left: 3px solid #F4B63C;
+}
+
 .advocacy-list {
   list-style-type: none;
 }

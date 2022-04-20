@@ -21,7 +21,7 @@
                     <span></span>
                     <ul>
                         <li  class="my-2">
-                            <a href="/unwpa/newsAndUpdates.php">Articles and News</a>
+                            <a href="/unwpa/Articles and News.php">Articles and News</a>
                         </li>
                         <li  class="my-2">
                             <a href="/unwpa/newsAndUpdates.php">Previous Events and Activities</a>
