@@ -437,6 +437,30 @@ ul.social-media li img {
     background-color: #fff;
     border-radius: 2rem;
   }
+
+ /* STRUCTURE MEMBERS PROFILE TABLET */
+
+ .img-fluid-profile {
+   height: auto !important;
+   width: 233px !important;
+ }
+ .row-members {
+  display: flex !important;
+  float: left !important;
+
+  flex-wrap: wrap;
+}
+.column {
+  flex: 46% !important;
+  margin-bottom: 30px !important;
+  float: left !important;
+  flex-direction: column !important;
+}
+* {
+  box-sizing: border-box !important;
+}
+
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -566,6 +590,8 @@ ul.social-media li img {
   footer.footer1 {
     display: none;
   }
+
+ 
 }
 
 .nonProfTitleContainer {
@@ -707,10 +733,8 @@ ul.social-media li img {
 .size {
   border-radius: 0.25rem !important;
 }
-.custom-col {
-       width: 50% !important;
-  
-   }
+
 
 /* END OF STRUCTURE MEMBERS CSS */
+
 /*# sourceMappingURL=style.css.map */
