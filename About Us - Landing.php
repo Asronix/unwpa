@@ -18,13 +18,16 @@
   <?php include 'includes\header.php' ?>
 
   <!-- Title -->
-  <div class="container-fluid m-0 p-0 aboutTitleContainer" >
-    <div class="container-fluid row aboutTitle">
-        <div class="col-sm-6 p-5 mt-5">
-          <center> <h1> <br>About Us  </h1> </center>
+  <div class="container-fluid m-0 p-0" style="background:#F0F5FF" >
+    <div class="row m-0 p-0 align-items-center aboutUsTitle">
+        <div class="col-sm-4 p-0 px-0 mt-0 mb-0 ">
+        <img src="assets\about us\bg-paya1.png" alt="" class="img-fluid float-sm-start bg_blob1">
         </div>
-        <div class="col-sm-6 m-0 px-0 py-5 aboutTitleImg">
-          <center> <img src="assets\about us\logo.png" alt="" class="img-fluid"> </center>
+        <div class="col-sm-2 p-0 px-0 mt-0 mb-0 ">
+         <h1 class="text-center"> About Us  </h1>
+        </div>
+        <div class="col-sm-6 m-0 px-0 py-5 container-fluid d-flex justify-content-center align-items-center ">
+          <img src="assets\about us\logo.png" alt="" class="img-fluid">
         </div>
     </div>    
   </div>

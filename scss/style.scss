@@ -192,10 +192,26 @@ ul.social-media {
 
 //// About Us - Start
 
+.aboutTitleContainer{
+    background: $aboutbgcolor1;
+}
 .aboutTitle {
     background: $aboutbgcolor1;
 }
 
+.aboutUsTitle{
+    position: relative;
+}
+.aboutUsTitle h1{
+    position: absolute;
+    margin-left: -12rem;
+    z-index: 2;
+}
+.bg_blob1{
+    position: relative;
+    height: 33rem;
+    width: 37rem;
+}
 .missionTitleBg {
     background-color: $aboutbgcolor3;
 }
@@ -225,6 +241,18 @@ ul.social-media {
 .members_seperatorbg1 {
     background: $aboutbgalt1;
     align-items: center;
+}
+.bg_blob2{
+    position: relative;
+    height: 33rem;
+    width: 37rem;
+    margin-bottom: 0rem;
+}
+
+.bg_blob3{
+    position: relative;
+    height: 20rem;
+    width: 20rem;  
 }
 
 .membersContainer {
@@ -506,12 +534,29 @@ ul.social-media {
         background: #000;
 
         > div.row:first-child {
-            > div {
+            > div:first-child{
                 img {
                     width: 50% !important;
                 }
+                > div:first-child{
+                    h1{
+                        margin-left: 0rem;
+                        z-index: auto;
+                    }
+                }
             }
         }
+    }
+
+    .missionContainer{
+        >div:first-child{
+            >div:first-child{
+                h1{
+                    font-size: 1px;
+                }
+            }
+        
+    
     }
 
     .overlay {
@@ -607,6 +652,20 @@ ul.social-media {
             > div {
                 img {
                     width: 50% !important;
+                }
+            }
+        }
+    }
+
+    // About Us - Landing
+    .aboutTitleContainer{
+        >div.row:first-child{
+            >div:first-child{
+                img{
+                    display: none;
+                }
+                p{
+                    font-size: 22px !important;
                 }
             }
         }
