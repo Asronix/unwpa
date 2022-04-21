@@ -452,15 +452,43 @@ ul.social-media {
             background-image: url("../assets/about us/bg-paya1.png");
             background-size: contain;
             background-repeat: no-repeat;
-            background-position: -8rem 0rem;
+            background-position: -10rem 0rem;
         }
     }
 
-    .container {
-        h3 {
-            font-weight: 400;
+}
+
+.activities-post {
+    position: relative;
+    height: 15vh;
+    img {
+        position: absolute;
+        z-index: -1;
+    }
+
+    div {
+        height: inherit;
+        p {
+            font-size: 10px;
+            color: #fff;
+            border-left: 3px solid #F4B63C;
         }
     }
+
+    
+}
+
+.advocacy-list {
+    list-style-type: none;
+}
+
+ul.advocacy-list li::before {
+    background-color: #000;
+    content: '00';
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-right: 5px;
 }
 
 .paya-hero1 {
@@ -493,9 +521,23 @@ ul.social-media {
     }
 }
 
-.paya-hero2 {
-    h3 {
-        font-weight: 400;
+.save-box {
+    
+    background-color: #E8EFFF;
+    box-shadow: 0px 4px 5px;
+
+}
+
+.paya-hero3 {
+    background-image: url('../assets/about us/bg-paya3.png');
+    background-size: 30rem 33rem;
+    background-repeat: no-repeat;
+    background-position: 0rem 10rem;
+    height: 100vh !important;
+}
+
+.paya-justify {
+    p {
         text-align: justify;
     }
 }
