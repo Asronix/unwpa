@@ -246,6 +246,7 @@ ul.social-media {
     padding-left: 10rem !important;
     padding-right: 10rem !important;
 }
+
 .memberCard1 {
     background: $whitebg;
     margin-top: 2rem;
@@ -446,8 +447,8 @@ ul.social-media {
 /////////// About Us END
 
 .paya-hero {
-    > .row:first-child {
-        > div:first-child {
+    >.row:first-child {
+        >div:first-child {
             background-image: url("../assets/about us/bg-paya1.png");
             background-size: contain;
             background-repeat: no-repeat;
@@ -491,8 +492,8 @@ ul.advocacy-list li::before {
 }
 
 .paya-hero1 {
-    > .row:first-child {
-        > div:last-child {
+    >.row:first-child {
+        >div:last-child {
             background-image: url("../assets/about us/bg-paya2.png");
             background-size: 40rem 40rem;
             background-repeat: no-repeat;
@@ -507,7 +508,7 @@ ul.advocacy-list li::before {
         }
     }
 
-    > .row:last-child {
+    >.row:last-child {
         background-image: url("../assets/about us/bg-paya1.png");
         background-repeat: no-repeat;
         background-size: 25rem 25rem;
@@ -543,12 +544,13 @@ ul.advocacy-list li::before {
 
 // Media Queries for Tablet
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
     // About Us - Portal Access
     .pPortalTitleContainer {
         background: #000;
 
-        > div.row:first-child {
-            > div {
+        >div.row:first-child {
+            >div {
                 img {
                     width: 50% !important;
                 }
@@ -560,8 +562,8 @@ ul.advocacy-list li::before {
         padding: 2rem !important;
         margin: 0 !important;
 
-        > div {
-            > div:first-child {
+        >div {
+            >div:first-child {
                 p:first-child {
                     margin: 0px !important;
                     margin-top: 3rem !important;
@@ -582,7 +584,7 @@ ul.advocacy-list li::before {
     }
 
     .form-registration {
-        > div {
+        >div {
             width: 75% !important;
         }
     }
@@ -623,6 +625,7 @@ ul.advocacy-list li::before {
         position: relative;
         top: 0;
         border-bottom: 15px solid $borderColor1;
+
         p {
             background-color: $borderColor1;
             position: absolute;
@@ -637,16 +640,41 @@ ul.advocacy-list li::before {
             border-radius: 2rem;
         }
     }
+
+
+    /* STRUCTURE MEMBERS PROFILE TABLET */
+    .img-fluid-profile {
+        height: auto !important;
+        width: 233px !important;
+    }
+
+    .row-members {
+        display: flex !important;
+        float: left !important;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        flex: 46% !important;
+        margin-bottom: 30px !important;
+        float: left !important;
+        flex-direction: column !important;
+    }
+
+    * {
+        box-sizing: border-box !important;
+    }
 }
 
 // Media Queries for Mobile
 @media screen and (min-width: 320px) and (max-width: 767px) {
+
     // About Us - Portal Access
     .pPortalTitleContainer {
         background: red;
 
-        > div.row:first-child {
-            > div {
+        >div.row:first-child {
+            >div {
                 img {
                     width: 50% !important;
                 }
@@ -659,15 +687,15 @@ ul.advocacy-list li::before {
         padding: 2rem !important;
         margin: 0 !important;
 
-        > div {
-            > div:first-child {
+        >div {
+            >div:first-child {
                 p:first-child {
                     margin: 0px !important;
                     margin-top: 3rem !important;
                 }
             }
 
-            > div:last-child {
+            >div:last-child {
                 p:first-child {
                     margin: 0px !important;
                     margin-top: 2rem !important;
@@ -708,7 +736,8 @@ ul.advocacy-list li::before {
         padding-bottom: 25px !important;
         background-color: #6b6b6b;
         box-shadow: 1px -9px 10px #6b6b6b;
-        > div {
+
+        >div {
             width: 75% !important;
         }
 
@@ -762,6 +791,7 @@ ul.advocacy-list li::before {
         position: relative;
         top: 0;
         border-bottom: 15px solid $borderColor1;
+
         p {
             background-color: $borderColor1;
             position: absolute;
@@ -802,3 +832,139 @@ ul.advocacy-list li::before {
         display: none;
     }
 }
+
+//About Us - Non Profit Org
+
+.nonProfTitleContainer {
+    margin: 0%;
+}
+
+.nonProfTitle {
+    margin-top: 0rem;
+}
+
+.chapter1_BG {
+    background-color: $aboutbgcolor3;
+}
+
+.chapter1_BG2 {
+    background-color: $aboutbgcolor4;
+}
+
+//About Us - Partners
+
+.partnersTitleContainer {
+    background-color: $aboutbgcolor1;
+
+}
+
+.partnersTitle {
+    position: relative;
+}
+
+.hearthands {
+    height: auto;
+    width: 50rem;
+}
+
+.overlayTitle {
+    position: absolute;
+    justify-content: center;
+    color: black;
+    bottom: 15rem;
+}
+
+.partnersCard {
+    background-color: $aboutbgcolor2;
+    border-color: $aboutbgcolor2;
+}
+
+.partnersImg1 {
+    height: 310px;
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.partnersImg2 {
+    height: 310px;
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+
+}
+
+
+/* START OF STRUCTURE MEMBERS CSS */
+.bg-primary-cardbackground {
+    background-color: #24314C;
+}
+
+.border-warning-circle {
+    border-color: #ffc228;
+    border-width: 10px;
+}
+
+.img-fluid-profile {
+    height: auto;
+    width: 59%;
+}
+
+.img-fluid-profile-more {
+    height: auto;
+    width: 65%;
+}
+
+.img-size {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.parallelogram {
+    width: max-content;
+    transform: skew(-39deg);
+    background-color: #264caa;
+    text-align: center;
+    /* margin-left: 86px; */
+    margin-top: -23px;
+    height: 22px;
+}
+
+.parallelogram-members {
+    width: max-content;
+    transform: skew(-39deg);
+    background-color: #264caa;
+    text-align: center;
+    margin-top: -23px;
+    height: 22px;
+}
+
+.text-white-fusao {
+    transform: skew(38deg);
+    margin-left: 4px;
+}
+
+.text-white-ayaka {
+    transform: skew(38deg);
+}
+
+.vr {
+    margin-right: 3px;
+    width: 3px;
+    transform: skew(38deg);
+    background-color: #FFC228;
+    opacity: unset;
+    height: fit-content;
+    display: inline-block;
+}
+
+.bkgnd {
+    background-color: #24314C;
+}
+
+.size {
+    border-radius: 0.25rem !important;
+}
+
+/* END OF STRUCTURE MEMBERS CSS */
