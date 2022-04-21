@@ -498,62 +498,65 @@ ul.social-media li img {
     margin-left: 0rem;
     z-index: auto;
   }
-  .overlay {
+  .missionContainer > div:first-child > div:first-child h1 {
+    font-size: 1px;
+  }
+  .missionContainer .overlay {
     padding: 2rem !important;
     margin: 0 !important;
   }
-  .overlay > div > div:first-child p:first-child {
+  .missionContainer .overlay > div > div:first-child p:first-child {
     margin: 0px !important;
     margin-top: 3rem !important;
   }
-  .left-element-with-background-image {
+  .missionContainer .left-element-with-background-image {
     height: 100vh;
   }
-  .left-element-with-background-image h1 {
+  .missionContainer .left-element-with-background-image h1 {
     padding: 0 !important;
     margin: 0 !important;
     font-weight: lighter;
     margin-top: 2rem !important;
   }
-  .form-registration > div {
+  .missionContainer .form-registration > div {
     width: 75% !important;
   }
-  .header-bg {
+  .missionContainer .header-bg {
     color: #000;
   }
-  .header-bg .logo-bg {
+  .missionContainer .header-bg .logo-bg {
     width: 85%;
   }
-  .header-bg .row {
+  .missionContainer .header-bg .row {
     position: relative;
   }
-  .header-bg .header-menu {
+  .missionContainer .header-bg .header-menu {
     position: absolute;
     right: 0;
     bottom: 20;
   }
-  .header-bg .header-menu nav .navbar-toggler {
+  .missionContainer .header-bg .header-menu nav .navbar-toggler {
     color: transparent;
     border-color: transparent;
   }
-  .header-bg .header-menu nav #menuIcon {
+  .missionContainer .header-bg .header-menu nav #menuIcon {
     background-image: url("../assets/burger.png");
     height: 50px;
     width: 50px;
     background-size: 50px;
   }
-  .btop {
+  .missionContainer .btop {
     position: relative;
     top: 0;
     border-bottom: 15px solid #264caa;
   }
-  .btop p {
+  .missionContainer .btop p {
     background-color: #264caa;
     position: absolute;
     right: 0;
     bottom: 0;
   }
-  footer.responsive-footer .logo {
+  .missionContainer footer.responsive-footer .logo {
     background-color: #fff;
     border-radius: 2rem;
   }
@@ -566,11 +569,39 @@ ul.social-media li img {
   .pPortalTitleContainer > div.row:first-child > div img {
     width: 50% !important;
   }
-  .aboutTitleContainer > div.row:first-child > div:first-child img {
+  .aboutTitleContainer {
+    padding-top: 3rem !important;
+  }
+  .aboutTitleContainer > div:first-child > div:first-child img {
     display: none;
   }
-  .aboutTitleContainer > div.row:first-child > div:first-child p {
-    font-size: 22px !important;
+  .aboutLogo {
+    height: auto !important;
+    width: 15rem !important;
+  }
+  .aboutTitle {
+    margin-top: 5rem;
+  }
+  .aboutUsTitle h1 {
+    position: absolute;
+    margin-left: 9rem;
+  }
+  .missionDesc {
+    font-size: 15px !important;
+    width: 320px !important;
+    margin-top: -30px !important;
+  }
+  .visionDesc {
+    font-size: 15px !important;
+    width: 320px !important;
+    margin-top: -30px !important;
+  }
+  .visionBg {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .memberCard0 {
+    width: 50% !important;
   }
   .overlay {
     padding: 2rem !important;
