@@ -24,7 +24,7 @@
     <?php include 'includes\header.php' ?>
     <!-- Carousel Section -->
 
-    <!-- BODY CONTENT -->
+    <!-- PRESIDENT CONTENT -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 mt-5">
@@ -32,11 +32,11 @@
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12  d-flex justify-content-center">
+            <div class="row d-flex">
+                <div class="col-sm-12 d-flex justify-content-center">
                     <div class="card mb-3 w-100 mx-5 mt-5 p-5 bg-primary-cardbackground shadow">
-                        <div class="row g-0">
-                            <div class="col-md-4 mx-auto">
+                        <div class="row row-flex g-0 ">
+                            <div class="col-md-4 mx-auto my-auto">
                                 <img src="assets\stucture members\4.png" class="img-fluid-profile mx-auto d-flex">
                                 <div class="parallelogram d-flex px-3 mx-auto">
                                     <div class="vr my-auto"></div>
@@ -48,7 +48,7 @@
 
                             </div>
                             <!-- <div class="parallelogram d-flex"><div class="vr"></div><h6 class="text-white ">FUSAO KITAGAWA</h6></div> -->
-                            <div class="col-md-8 p-2 pt-2" style="padding-right:40px !important">
+                            <div class="col-md-8 p-2 pt-2">
                                 <div class="card-body-content justify-content-around fs-5">
                                     <p class="card-text ">We are starting with what we can do in times of confusion.Through
                                         volunteer activities, we will work to protect the needs of people around the world
@@ -66,12 +66,13 @@
             </div>
         </div>
     </div>
+    <!-- END OF PRESIDENT CONTENT -->
 
     <!-- members profile -->
     <div class="container-fluid">
-        <div class="row p-2">
+        <div class="row row-members p-2">
             <div class="card-group px-5 py-2">
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\7.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -82,6 +83,7 @@
                         </h6>
                     </div>
 
+
                     <div class="card-body px-4">
                         <p class="card-text text-white">Realities that are not broadcast on television are
                             happening around
@@ -90,11 +92,9 @@
                         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                         <!-- <div class="d-flex justify-content-end "><small class="more">MORE</small></div> -->
                         <div class="d-flex justify-content-end "><button type="button" class="btn btn-primary"><small>MORE</small></button></div>
-
-
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\5.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -107,14 +107,13 @@
 
                     <div class="card-body px-4">
                         <p class="card-text text-white">The power of music beyond borders. As a music ambassador, I am
-                            committed to
-                            helping people who need assistance through music...
+                            committed to helping people who need assistance through music assistance...
                         </p>
                         <div class="d-flex justify-content-end "><button type="button" class="btn btn-primary"><small>MORE</small></button></div>
 
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\6.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -127,19 +126,19 @@
 
                     <div class="card-body px-4">
                         <p class="card-text text-white">As bridges between the Philippines and Japan, we would like to help
-                            each other help each other to make a better world. We look forward to your continued support and
-                            cooperation...</p>
+                            each other help each other to make a better world. We look forward to your...
+                        </p>
                         <div class="d-flex justify-content-end "><button type="button" class="btn btn-primary"><small>MORE</small></button></div>
-
 
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row p-2">
+
+        <div class="row p-2 row-members">
             <div class="card-group px-5 py-2">
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\1.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -161,7 +160,7 @@
 
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\9.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -179,7 +178,7 @@
 
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\2.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -193,7 +192,7 @@
                     <div class="card-body px-4">
                         <p class="card-text text-white">As a principle of peace, “compassion” must be the basis. I am
                             convinced that actions take into consideration, the position of the other person will find a
-                            connection between...</p>
+                            connection...</p>
                         <div class="d-flex justify-content-end "><button type="button" class="btn btn-primary"><small>MORE</small></button></div>
 
 
@@ -204,7 +203,7 @@
 
         <div class="row p-2">
             <div class="card-group px-5 py-2">
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\15.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -226,7 +225,7 @@
 
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\16.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -244,7 +243,7 @@
 
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\10.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -269,7 +268,7 @@
 
         <div class="row p-2">
             <div class="card-group px-5 py-2">
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\3.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -290,7 +289,7 @@
 
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\13.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -308,7 +307,7 @@
 
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\8.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -334,7 +333,7 @@
 
         <div class="row p-2 mb-5">
             <div class="card-group px-5 py-2">
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\14.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -356,14 +355,15 @@
 
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\11.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">YASUMUNE NAKAKO</h6>
                     </div>
                     <div class="d-flex justify-content-center px-2">
-                        <h6 class="my-auto mt-1 text-white mx-auto  text-center">Representative of Operation Management </h6>
+                        <h6 class="my-auto mt-1 text-white mx-auto  text-center">Representative of Operation Management
+                        </h6>
                     </div>
 
                     <div class="card-body px-4">
@@ -373,7 +373,7 @@
 
                     </div>
                 </div>
-                <div class="card size bkgnd mx-3 px-2 shadow">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img class="card-img-top img-size mx-auto" src="assets\stucture members\12.png" alt="Card image cap">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -396,8 +396,9 @@
                 </div>
             </div>
         </div>
-
     </div>
+    <!-- END OF MEMBERS PROFILE -->
+
     <!-- Footer Section -->
     <?php include 'includes\footer.php' ?>
 </body>

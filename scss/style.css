@@ -3,8 +3,22 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+
 .body {
   font-family: "Poppins";
+}
+
+#navbarNavDropdown ul li a:link {
+  text-decoration: none;
+  -webkit-transform: 1s;
+          transform: 1s;
+}
+
+#navbarNavDropdown ul li a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 2px;
+
 }
 
 .header-bg {
@@ -162,28 +176,8 @@ ul.social-media li img {
   font-size: 10px;
 }
 
-.aboutTitleContainer {
-  background: #f0f5ff;
-}
-
 .aboutTitle {
   background: #f0f5ff;
-}
-
-.aboutUsTitle {
-  position: relative;
-}
-
-.aboutUsTitle h1 {
-  position: absolute;
-  margin-left: -12rem;
-  z-index: 2;
-}
-
-.bg_blob1 {
-  position: relative;
-  height: 33rem;
-  width: 37rem;
 }
 
 .missionTitleBg {
@@ -314,6 +308,69 @@ ul.social-media li img {
 .border-warning-circle {
   border-color: #ffc228;
   border-width: 10px;
+}
+
+.section-1 {
+  background-image: linear-gradient(140deg, #646464, #959595);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay-logo {
+  opacity: .5;
+  position: absolute;
+  margin-left: -243px;
+}
+
+.memberCard1 {
+  width: 8rem;
+  height: 6rem;
+}
+
+.divider1 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news-button {
+  color: #fff;
+  background-color: #646464;
+  border-color: #0d6efd;
+  border-radius: 40px;
+}
+
+.events-button {
+  color: #fff;
+  background-color: #646464;
+  border-color: #0d6efd;
+  border-radius: 40px;
+}
+
+
+.membersTitleBg .divider1 .carousel-caption {
+
+
+  position: absolute;
+  bottom: 200;
+}
+
+.carousel-caption button {
+  color: #264caa;
+}
+
+.carousel-item {
+  background: black;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 100;
+}
+
+.section-right {
+  font-size: 10px;
 }
 
 .pPortal_seperatorbg1 {
@@ -451,11 +508,40 @@ ul.social-media li img {
   background-image: url("../assets/about us/bg-paya1.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: -8rem 0rem;
+  background-position: -10rem 0rem;
 }
 
-.paya-hero .container h3 {
-  font-weight: 400;
+.activities-post {
+  position: relative;
+  height: 15vh;
+}
+
+.activities-post img {
+  position: absolute;
+  z-index: -1;
+}
+
+.activities-post div {
+  height: inherit;
+}
+
+.activities-post div p {
+  font-size: 10px;
+  color: #fff;
+  border-left: 3px solid #F4B63C;
+}
+
+.advocacy-list {
+  list-style-type: none;
+}
+
+ul.advocacy-list li::before {
+  background-color: #000;
+  content: '00';
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-right: 5px;
 }
 
 .paya-hero1 > .row:first-child > div:last-child {
@@ -482,8 +568,21 @@ ul.social-media li img {
   font-weight: 400;
 }
 
-.paya-hero2 h3 {
-  font-weight: 400;
+.save-box {
+  background-color: #E8EFFF;
+  -webkit-box-shadow: 0px 4px 5px;
+          box-shadow: 0px 4px 5px;
+}
+
+.paya-hero3 {
+  background-image: url("../assets/about us/bg-paya3.png");
+  background-size: 30rem 33rem;
+  background-repeat: no-repeat;
+  background-position: 0rem 10rem;
+  height: 100vh !important;
+}
+
+.paya-justify p {
   text-align: justify;
 }
 
@@ -560,6 +659,31 @@ ul.social-media li img {
     background-color: #fff;
     border-radius: 2rem;
   }
+
+  
+ /* STRUCTURE MEMBERS PROFILE TABLET */
+
+ .img-fluid-profile {
+   height: auto !important;
+   width: 233px !important;
+ }
+ .row-members {
+  display: flex !important;
+  float: left !important;
+
+  flex-wrap: wrap;
+}
+.column {
+  flex: 46% !important;
+  margin-bottom: 30px !important;
+  float: left !important;
+  flex-direction: column !important;
+}
+* {
+  box-sizing: border-box !important;
+}
+
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -723,5 +847,161 @@ ul.social-media li img {
   footer.footer1 {
     display: none;
   }
+}
+
+
+.nonProfTitleContainer {
+  margin: 0%;
+}
+
+.nonProfTitle {
+  margin-top: 0rem;
+}
+
+.chapter1_BG {
+  background-color: #BAD0FC;
+}
+
+.chapter1_BG2 {
+  background-color: #E1EAFE;
+}
+
+.partnersTitleContainer {
+  background-color: #F0F5FF;
+}
+
+.partnersTitle {
+  position: relative;
+}
+
+.hearthands {
+  height: auto;
+  width: 50rem;
+}
+
+.overlayTitle {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  bottom: 15rem;
+}
+
+.partnersCard {
+  background-color: #E8EFFF;
+  border-color: #E8EFFF;
+}
+
+.partnersImg1 {
+  height: 310px;
+  width: 20rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.partnersImg2 {
+  height: 310px;
+  width: 20rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+/* START OF STRUCTURE MEMBERS CSS */
+.bg-primary-cardbackground {
+  background-color: #24314C;
+}
+
+.border-warning-circle {
+  border-color: #ffc228;
+  border-width: 10px;
+}
+
+.img-fluid-profile {
+  height: auto;
+  width: 59%;
+}
+
+.img-fluid-profile-more {
+  height: auto;
+  width: 65%;
+}
+
+.img-size {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.parallelogram {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-transform: skew(-39deg);
+          transform: skew(-39deg);
+  background-color: #264caa;
+  text-align: center;
+  /* margin-left: 86px; */
+  margin-top: -23px;
+  height: 22px;
+}
+
+.parallelogram-members {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-transform: skew(-39deg);
+          transform: skew(-39deg);
+  background-color: #264caa;
+  text-align: center;
+  margin-top: -23px;
+  height: 22px;
+}
+
+.text-white-fusao {
+  -webkit-transform: skew(38deg);
+          transform: skew(38deg);
+  margin-left: 4px;
+}
+
+.text-white-ayaka {
+  -webkit-transform: skew(38deg);
+          transform: skew(38deg);
+}
+
+.vr {
+  margin-right: 3px;
+  width: 3px;
+  -webkit-transform: skew(38deg);
+          transform: skew(38deg);
+  background-color: #FFC228;
+  opacity: unset;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: inline-block;
+}
+
+.bkgnd {
+  background-color: #24314C;
+}
+
+.size {
+  border-radius: 0.25rem !important;
+}
+
+
+/* END OF STRUCTURE MEMBERS CSS */
+
+.wwdText h4 {
+  margin-left: 5rem;
+}
+
+.wwdDescBg {
+  background: #F0F5FF;
+}
+
+.wwdPurposeBg {
+  background: #E8EFFF;
 }
 /*# sourceMappingURL=style.css.map */
