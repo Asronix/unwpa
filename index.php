@@ -2,17 +2,17 @@
 
 <head>
   <title>United Nation World Peace</title>
-  <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-  <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-  <link href="assets\homepage\logo.png" rel="icon">
-  <link rel="stylesheet" href="scss\style.css">
+  <link href="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/homepage/logo.png" rel="icon">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
   <!-- Header Section -->
-  <?php include 'includes\header.php' ?>
+  <?php include 'includes/header.php' ?>
 
   <!-- Carousel Section -->
   <div class="container-fluid m-0 p-0 pageCarousel">
@@ -24,35 +24,35 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="assets\carousel\01.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <img src="assets/carousel/01.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
             <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="assets\carousel\02.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <img src="assets/carousel/02.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
             <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="assets\carousel\03.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <img src="assets/carousel/03.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
             <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="assets\carousel\04.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <img src="assets/carousel/04.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
             <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
           </div>
         </div>
         <div class="carousel-item ">
-          <img src="assets\carousel\05.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <img src="assets/carousel/05.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
             <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
@@ -72,7 +72,7 @@
 
   <!-- Section 1 -->
   <div class="container-fluid relative mt-5 section-1">
-    <img class="img-fluid absolute overlay-logo" src="assets\homepage\logo.png">
+    <img class="img-fluid absolute overlay-logo" src="assets/homepage/logo.png">
     <div class="row my-5 py-5">
       <div class="col-sm-12 p-5 fs-4 absolute">
         <h1 class="text-center text-light fw-bold">United Nation World Peace Assocation (WPA)</h1>
@@ -88,7 +88,7 @@
       <div class="col-sm-6">
         <div class="row" style="height:97.5%">
           <div class="col-sm-4">
-            <img src="assets\latest news and updates\la-consolacion.png" alt="" class="img-fluid">
+            <img src="assets/latest news and updates/la-consolacion.png" alt="" class="img-fluid">
           </div>
           <div class="col-sm-8">
             <p>UNWPA INTERS La Consolacion University Philippines</p>
@@ -100,7 +100,7 @@
       <div class="col-sm-6 section-right">
         <div class="row">
           <div class="col-sm-4">
-            <img src="assets\latest news and updates\la-consolacion.png" alt="" class="img-fluid">
+            <img src="assets/latest news and updates/la-consolacion.png" alt="" class="img-fluid">
           </div>
           <div class="col-sm-8">
             <p>UNWPA INTERS La Consolacion University Philippines</p>
@@ -110,7 +110,7 @@
         </div>
         <div class="row">
           <div class="col-sm-4">
-            <img src="assets\latest news and updates\sdg-yep.jpg" alt="" class="img-fluid">
+            <img src="assets/latest news and updates/sdg-yep.jpg" alt="" class="img-fluid">
           </div>
           <div class="col-sm-8">
             <p>UNWPA INTERS La Consolacion University Philippines</p>
@@ -129,7 +129,7 @@
       <div class="row mb-5">
         <div class="col-md-4 d-flex">
           <div class="card" style="width: 25rem;">
-            <img src="assets\recent events\1.jpg" class="card-img-top" alt="...">
+            <img src="assets/recent events/1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fw-bold">Blanket Distribution Program</h5>
               <p class="card-text">Like every year, yesterday on 07/01/2022 Friday UNWPA Bangladesh team arranged a day long Blanket Distribution Program to the poor and needy people in Dhaka Bangladesh for this winter...</p>
@@ -139,7 +139,7 @@
         </div>
         <div class="col-md-4 d-flex">
           <div class="card" style="width: 25rem;">
-            <img src="assets\recent events\2.jpg" class="card-img-top" alt="...">
+            <img src="assets/recent events/2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fw-bold">Typhoon hits Malaysia</h5>
               <p class="card-text">Shah Alam flood mission for the affected area of typhoon. With UNWPA Malaysia, FOC family of Charity, Beacon Society Shary Azmi, Meor Arif. Amb. Marietta Reformado Unwpa Malaysia Head Representative #UNWPA #UNWPAMALAYSIA</p>
@@ -149,7 +149,7 @@
         </div>
         <div class="col-md-4 d-flex">
           <div class="card" style="width: 25rem;">
-            <img src="assets\recent events\3.jpg" class="card-img-top" alt="...">
+            <img src="assets/recent events/3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fw-bold">UNWPA BANGLADESH AND UNWPA INDIA COLLABORATION FOR CHARITY EVENTS</h5>
               <p class="card-text">UNWPA India welcomes UNWPA Bangladesh for charity events that will be held from December 21,2021. #UNWPA #UNWPABANGLADESH #UNWPAINDIA</p>
@@ -162,7 +162,7 @@
   </div>
 
   <!-- Footer Section -->
-  <?php include 'includes\footer.php' ?>
+  <?php include 'includes/footer.php' ?>
 </body>
 
 </html>

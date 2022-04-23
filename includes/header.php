@@ -2,7 +2,7 @@
     
     <div class="row mx-0">
       <div class="col-sm-4 logo-bg mb-2">
-        <img src="assets\homepage\main-logo.png" alt="" srcset="" class="w-75 mt-2">
+        <img src="assets/homepage/main-logo.png" alt="" srcset="" class="w-75 mt-2">
       </div>
       <div class="col-sm-8 h-50 mt-5 header-menu">
         <nav class="navbar navbar-expand-lg navbar-light align-self-end float-end mt-5">
