@@ -238,14 +238,29 @@ ul.social-media {
 
 // UNWPA Board Members
 
+.memberTitleCont2{
+    position: relative;
+}
+.memberBlobCont{
+    width: 46rem;
+}
+.memberTitle{
+    position: absolute;
+    margin-top: 10rem !important;
+    z-index: 2;
+
+}
+.memberTitleImg{
+    z-index: 2;
+}
 .members_seperatorbg1 {
     background: $aboutbgalt1;
     align-items: center;
 }
 .bg_blob2{
     position: relative;
-    height: 33rem;
-    width: 37rem;
+    height: 37rem;
+    width: 46rem;
     margin-bottom: 0rem;
 }
 
@@ -592,16 +607,48 @@ ul.advocacy-list li::before {
         }
     }
 
+    //About Us - Landing
+
     .missionContainer{
         >div:first-child{
             >div:first-child{
                 h1{
-                    font-size: 1px;
+                    font-size: 35px;
                 }
             }
-        
+        }
     
     }
+    .titleCont{
+        position: relative;
+        z-index: 2;
+    }
+    .titleLogo{
+        width: 20rem !important;
+        margin-left: -4rem !important;
+    }
+    .aboutLogo{
+        width: 20rem !important;
+        height: auto;
+        position: relative !important;
+    }
+    .blobCont{
+        position: relative;
+        width: 20rem !important;
+    }
+    .bg_blob1{
+        width: 50rem !important;
+        height: 26rem !important;
+    }
+
+    .visionTitleBG{
+        font-size: 100px !important;
+    }
+    ////////end
+
+    //About Us - Members
+
+
 
     .overlay {
         padding: 2rem !important;
@@ -709,7 +756,6 @@ ul.advocacy-list li::before {
     * {
         box-sizing: border-box !important;
     }
-}
 }
 
 // Media Queries for Mobile
