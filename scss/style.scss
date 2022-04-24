@@ -648,6 +648,14 @@ ul.advocacy-list li::before {
 
     //About Us - Members
 
+    .memberRow{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .memberCard0{
+        width: 28rem !important;
+    }
 
 
     .overlay {
@@ -815,8 +823,40 @@ ul.advocacy-list li::before {
     }
 
     //About Us - Members
+    .membersTitleBg{
+        width: 21rem !important;
+    }
+    .memberRow{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
     .memberCard0{
-        width: 50% !important;
+        width: 26rem !important;
+    }
+    .boardTitle{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .bg_blob2{
+        display: none;
+    }
+
+    .memberTitle{
+        margin-top: 0rem !important;
+    }
+
+    .memberTitleImg{
+        margin-top: 0rem !important;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+
+    .aboutUsTitle h1{
+        margin-left: 4rem;
+    }
+    .titleCont{
+        padding-top: 0rem !important;
     }
 
     // upcoming events stylesheet
