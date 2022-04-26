@@ -3,9 +3,9 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 
-
 .body {
   font-family: "Poppins";
+
 }
 
 #navbarNavDropdown ul li a:link {
@@ -18,6 +18,7 @@ body {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-thickness: 2px;
+
 }
 
 .header-bg {
@@ -189,8 +190,28 @@ ul.social-media li img {
   font-size: 10px;
 }
 
+.aboutTitleContainer {
+  background: #f0f5ff;
+}
+
 .aboutTitle {
   background: #f0f5ff;
+}
+
+.aboutUsTitle {
+  position: relative;
+}
+
+.aboutUsTitle h1 {
+  position: absolute;
+  margin-left: -12rem;
+  z-index: 2;
+}
+
+.bg_blob1 {
+  position: relative;
+  height: 33rem;
+  width: 37rem;
 }
 
 .missionTitleBg {
@@ -219,12 +240,43 @@ ul.social-media li img {
   background: linear-gradient(to bottom, #e8efff 50%, #f0f5ff 50%);
 }
 
+.memberTitleCont2 {
+  position: relative;
+}
+
+.memberBlobCont {
+  width: 46rem;
+}
+
+.memberTitle {
+  position: absolute;
+  margin-top: 10rem !important;
+  z-index: 2;
+}
+
+.memberTitleImg {
+  z-index: 2;
+}
+
 .members_seperatorbg1 {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f0f5ff), color-stop(50%, #e8efff));
   background: linear-gradient(to bottom, #f0f5ff 50%, #e8efff 50%);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.bg_blob2 {
+  position: relative;
+  height: 37rem;
+  width: 46rem;
+  margin-bottom: 0rem;
+}
+
+.bg_blob3 {
+  position: relative;
+  height: 20rem;
+  width: 20rem;
 }
 
 .membersContainer {
@@ -308,72 +360,6 @@ ul.social-media li img {
 .border-warning-circle {
   border-color: #ffc228;
   border-width: 10px;
-}
-
-.section-1 {
-  background-image: linear-gradient(140deg, #646464, #959595);
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.overlay-logo {
-  opacity: .5;
-  position: absolute;
-  margin-left: -243px;
-}
-
-.memberCard1 {
-  width: 8rem;
-  height: 6rem;
-}
-
-.divider1 {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.news-button {
-  color: #fff;
-  background-color: #646464;
-  border-color: #0d6efd;
-  border-radius: 40px;
-}
-
-.events-button {
-  color: #fff;
-  background-color: #646464;
-  border-color: #0d6efd;
-  border-radius: 40px;
-}
-
-.carousel-caption {
-
-
-}
-.membersTitleBg .divider1 .carousel-caption {
-
-
-  position: absolute;
-  bottom: 200;
-}
-
-.carousel-caption button {
-  color: #264caa;
-}
-
-.carousel-item {
-  background: black;
-}
-
-.carousel-indicators {
-  position: absolute;
-  bottom: 100;
-}
-
-.section-right {
-  font-size: 10px;
 }
 
 .pPortal_seperatorbg1 {
@@ -622,6 +608,44 @@ ul.advocacy-list li::before {
   .pPortalTitleContainer > div.row:first-child > div img {
     width: 50% !important;
   }
+  .pPortalTitleContainer > div.row:first-child > div > div:first-child h1 {
+    margin-left: 0rem;
+    z-index: auto;
+  }
+  .missionContainer > div:first-child > div:first-child h1 {
+    font-size: 35px;
+  }
+  .titleCont {
+    position: relative;
+    z-index: 2;
+  }
+  .titleLogo {
+    width: 20rem !important;
+    margin-left: -4rem !important;
+  }
+  .aboutLogo {
+    width: 20rem !important;
+    height: auto;
+    position: relative !important;
+  }
+  .blobCont {
+    position: relative;
+    width: 20rem !important;
+  }
+  .bg_blob1 {
+    width: 50rem !important;
+    height: 26rem !important;
+  }
+  .visionTitleBG {
+    font-size: 100px !important;
+  }
+  .memberRow {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .memberCard0 {
+    width: 28rem !important;
+  }
   .overlay {
     padding: 2rem !important;
     margin: 0 !important;
@@ -681,31 +705,34 @@ ul.advocacy-list li::before {
     background-color: #fff;
     border-radius: 2rem;
   }
-
-  
- /* STRUCTURE MEMBERS PROFILE TABLET */
-
- .img-fluid-profile {
-   height: auto !important;
-   width: 233px !important;
- }
- .row-members {
-  display: flex !important;
-  float: left !important;
-
-  flex-wrap: wrap;
-}
-.column {
-  flex: 46% !important;
-  margin-bottom: 30px !important;
-  float: left !important;
-  flex-direction: column !important;
-}
-* {
-  box-sizing: border-box !important;
-}
-
-
+  /* STRUCTURE MEMBERS PROFILE TABLET */
+  .img-fluid-profile {
+    height: auto !important;
+    width: 233px !important;
+  }
+  .row-members {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    float: left !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .column {
+    -webkit-box-flex: 46% !important;
+        -ms-flex: 46% !important;
+            flex: 46% !important;
+    margin-bottom: 30px !important;
+    float: left !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  * {
+    -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -734,6 +761,68 @@ ul.advocacy-list li::before {
   }
   .pPortalTitleContainer > div.row:first-child > div img {
     width: 50% !important;
+  }
+  .aboutTitleContainer {
+    padding-top: 3rem !important;
+  }
+  .aboutTitleContainer > div:first-child > div:first-child img {
+    display: none;
+  }
+  .aboutLogo {
+    height: auto !important;
+    width: 15rem !important;
+  }
+  .aboutTitle {
+    margin-top: 5rem;
+  }
+  .aboutUsTitle h1 {
+    position: absolute;
+    margin-left: 9rem;
+  }
+  .missionDesc {
+    font-size: 15px !important;
+    width: 320px !important;
+    margin-top: -30px !important;
+  }
+  .visionDesc {
+    font-size: 15px !important;
+    width: 320px !important;
+    margin-top: -30px !important;
+  }
+  .visionBg {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .membersTitleBg {
+    width: 21rem !important;
+  }
+  .memberRow {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .memberCard0 {
+    width: 26rem !important;
+  }
+  .boardTitle {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .bg_blob2 {
+    display: none;
+  }
+  .memberTitle {
+    margin-top: 0rem !important;
+  }
+  .memberTitleImg {
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  .aboutUsTitle h1 {
+    margin-left: 4rem;
+  }
+  .titleCont {
+    padding-top: 0rem !important;
   }
   .overlay {
     padding: 2rem !important;
@@ -857,7 +946,6 @@ ul.advocacy-list li::before {
   }
 }
 
-
 .nonProfTitleContainer {
   margin: 0%;
 }
@@ -867,15 +955,15 @@ ul.advocacy-list li::before {
 }
 
 .chapter1_BG {
-  background-color: #BAD0FC;
+  background-color: #bad0fc;
 }
 
 .chapter1_BG2 {
-  background-color: #E1EAFE;
+  background-color: #e1eafe;
 }
 
 .partnersTitleContainer {
-  background-color: #F0F5FF;
+  background-color: #f0f5ff;
 }
 
 .partnersTitle {
@@ -897,8 +985,8 @@ ul.advocacy-list li::before {
 }
 
 .partnersCard {
-  background-color: #E8EFFF;
-  border-color: #E8EFFF;
+  background-color: #e8efff;
+  border-color: #e8efff;
 }
 
 .partnersImg1 {
@@ -998,18 +1086,5 @@ ul.advocacy-list li::before {
   border-radius: 0.25rem !important;
 }
 
-
 /* END OF STRUCTURE MEMBERS CSS */
-
-.wwdText h4 {
-  margin-left: 5rem;
-}
-
-.wwdDescBg {
-  background: #F0F5FF;
-}
-
-.wwdPurposeBg {
-  background: #E8EFFF;
-}
 /*# sourceMappingURL=style.css.map */

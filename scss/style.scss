@@ -224,10 +224,26 @@ ul.social-media {
 
 //// About Us - Start
 
+.aboutTitleContainer{
+    background: $aboutbgcolor1;
+}
 .aboutTitle {
     background: $aboutbgcolor1;
 }
 
+.aboutUsTitle{
+    position: relative;
+}
+.aboutUsTitle h1{
+    position: absolute;
+    margin-left: -12rem;
+    z-index: 2;
+}
+.bg_blob1{
+    position: relative;
+    height: 33rem;
+    width: 37rem;
+}
 .missionTitleBg {
     background-color: $aboutbgcolor3;
 }
@@ -254,9 +270,36 @@ ul.social-media {
 
 // UNWPA Board Members
 
+.memberTitleCont2{
+    position: relative;
+}
+.memberBlobCont{
+    width: 46rem;
+}
+.memberTitle{
+    position: absolute;
+    margin-top: 10rem !important;
+    z-index: 2;
+
+}
+.memberTitleImg{
+    z-index: 2;
+}
 .members_seperatorbg1 {
     background: $aboutbgalt1;
     align-items: center;
+}
+.bg_blob2{
+    position: relative;
+    height: 37rem;
+    width: 46rem;
+    margin-bottom: 0rem;
+}
+
+.bg_blob3{
+    position: relative;
+    height: 20rem;
+    width: 20rem;  
 }
 
 .membersContainer {
@@ -594,9 +637,66 @@ ul.advocacy-list li::before {
                 img {
                     width: 50% !important;
                 }
+                > div:first-child{
+                    h1{
+                        margin-left: 0rem;
+                        z-index: auto;
+                    }
+                }
             }
         }
     }
+
+    //About Us - Landing
+
+    .missionContainer{
+        >div:first-child{
+            >div:first-child{
+                h1{
+                    font-size: 35px;
+                }
+            }
+        }
+    
+    }
+    .titleCont{
+        position: relative;
+        z-index: 2;
+    }
+    .titleLogo{
+        width: 20rem !important;
+        margin-left: -4rem !important;
+    }
+    .aboutLogo{
+        width: 20rem !important;
+        height: auto;
+        position: relative !important;
+    }
+    .blobCont{
+        position: relative;
+        width: 20rem !important;
+    }
+    .bg_blob1{
+        width: 50rem !important;
+        height: 26rem !important;
+    }
+
+    .visionTitleBG{
+        font-size: 100px !important;
+    }
+    ////////end
+
+    //About Us - Members
+
+    .memberRow{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .memberCard0{
+        width: 28rem !important;
+    }
+
 
     .overlay {
         padding: 2rem !important;
@@ -720,6 +820,83 @@ ul.advocacy-list li::before {
                 }
             }
         }
+    }
+
+    // About Us - Landing
+    .aboutTitleContainer{
+        padding-top: 3rem !important;
+
+        >div:first-child{
+            >div:first-child{
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+    .aboutLogo{
+        height: auto!important;
+        width: 15rem!important;
+    }
+    .aboutTitle{
+        margin-top: 5rem;
+    }
+
+    .aboutUsTitle h1 {
+        position: absolute;
+        margin-left: 9rem;
+    }
+    .missionDesc{
+        font-size: 15px !important;
+        width: 320px !important;
+        margin-top: -30px !important;
+    }
+    .visionDesc{
+        font-size: 15px !important;
+        width: 320px !important;
+        margin-top: -30px !important;
+    }
+
+    .visionBg{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    //About Us - Members
+    .membersTitleBg{
+        width: 21rem !important;
+    }
+    .memberRow{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .memberCard0{
+        width: 26rem !important;
+    }
+    .boardTitle{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .bg_blob2{
+        display: none;
+    }
+
+    .memberTitle{
+        margin-top: 0rem !important;
+    }
+
+    .memberTitleImg{
+        margin-top: 0rem !important;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+
+    .aboutUsTitle h1{
+        margin-left: 4rem;
+    }
+    .titleCont{
+        padding-top: 0rem !important;
     }
 
     // upcoming events stylesheet

@@ -61,7 +61,7 @@
                                         <a href="/unwpa/About Us - Landing.php">Mission and Vision</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="/unwpa/About Us - Partner Portal.php">Partnership</a>
+                                        <a href="/unwpa/About Us - Partners.php">Partnership</a>
                                     </li>
                                     <li class="my-2">
                                         <a href="/unwpa/About Us - What We Do.php">What we do.</a>
